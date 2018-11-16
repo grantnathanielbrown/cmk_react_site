@@ -3,4 +3,5 @@
 ## to do
 
 - set up routes
+- fill in navigation bar
 - 
