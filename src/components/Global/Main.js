@@ -6,6 +6,8 @@ import Services  from '../Pages/Services';
 import Treatments  from '../Pages/Treatments';
 import Policies  from '../Pages/Policies';
 import Contact  from '../Pages/Contact';
+import Footer from './Footer';
+import Header from './Header';
 
 const Main = () => (
     <main>
@@ -21,6 +23,8 @@ const Main = () => (
 
         </Switch>
       </HashRouter>
+      <Header></Header>
+      <Footer></Footer>
     </main>
   )
 
