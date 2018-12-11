@@ -1,7 +1,6 @@
 # CMK'S Website
 
 ## to do
-
-- set up routes
-- fill in navigation bar
-- 
+- import css
+- import carousel
+- get carousel images

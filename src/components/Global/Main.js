@@ -7,7 +7,7 @@ import Treatments  from '../Pages/Treatments';
 import Policies  from '../Pages/Policies';
 import Contact  from '../Pages/Contact';
 import Footer from './Footer';
-import Header from './Header';
+// import Header from './Header';
 
 const Main = () => (
     <main>
@@ -18,12 +18,9 @@ const Main = () => (
           <Route exact path="/services" component={Services}/>
           <Route exact path="/treatments" component={Treatments}/>
           <Route exact path="/policies" component={Policies}/>
-          <Route exact path="/contact" component={Contact}/>
-          
-
+          <Route exact path="/contact" component={Contact}/>          
         </Switch>
       </HashRouter>
-      <Header></Header>
       <Footer></Footer>
     </main>
   )

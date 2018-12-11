@@ -6,6 +6,18 @@ font-family: 'Raleway', serif;
 font-weight: 300;
 font-size: 24px;
 }
+
+body, html {
+  height: 100vh;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .dropdown:hover>.dropdown-menu {
   display: block;
 }
