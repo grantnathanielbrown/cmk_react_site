@@ -13,9 +13,16 @@ body, html {
 
 main {
   height: 100vh;
+  width: 60%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.sideways {
+  display: flex;
+  flex-direction: row;
+
 }
 
 .dropdown:hover>.dropdown-menu {
@@ -50,14 +57,14 @@ font-size: 36px;
 
 .prefooter {
   background-color: #7F7F7D;
-  width: 1200px;
+  width: 100%;
   color: white;
   margin: 0px;
   font-size: 16px;
 }
 .footer {
   background-color: #403F3F;
-  width: 1200px;
+  width: 100%;
   color: white;
   margin: 0px;
   font-size: 16px;
