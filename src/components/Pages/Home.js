@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
 // import Footer from '../Global/Footer';
 import Header from '../Global/Header';
-import RyanGosling from './RyanGosling10-19.JPG';
+import RyanGosling from '../Images/RyanGosling10-19.JPG';
+import Carousel from '../Global/Carousel';
 export default class Home extends Component {
   render() {
     return (      
 <div>
     <Header></Header>
+    <Carousel></Carousel>
     <div className="sideways">
 <figure>
     <img src={RyanGosling} alt='missing' />

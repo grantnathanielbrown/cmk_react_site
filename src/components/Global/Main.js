@@ -10,6 +10,8 @@ import Footer from './Footer';
 // import Header from './Header';
 
 const Main = () => (
+  <div>
+
     <main>
       <HashRouter>
         <Switch>
@@ -21,8 +23,9 @@ const Main = () => (
           <Route exact path="/contact" component={Contact}/>          
         </Switch>
       </HashRouter>
-      <Footer></Footer>
     </main>
+      <Footer></Footer>
+    </div>
   )
 
 export default Main
