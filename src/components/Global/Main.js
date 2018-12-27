@@ -7,7 +7,7 @@ import Treatments  from '../Pages/Treatments';
 import Policies  from '../Pages/Policies';
 import Contact  from '../Pages/Contact';
 import Footer from './Footer';
-// import Header from './Header';
+import GoogleApiWrapper from './MapContainer';
 
 const Main = () => (
   <div>
@@ -25,6 +25,7 @@ const Main = () => (
       </HashRouter>
     </main>
       <Footer></Footer>
+        {/* <GoogleApiWrapper></GoogleApiWrapper> */}
     </div>
   )
 

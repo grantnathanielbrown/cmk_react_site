@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import Bike from '../Images/bike.jpg';
-import Hike from '../Images/hike.jpg';
-import Island from '../Images/island.jpg';
+import Bike from '../Images/bike.png';
+import Hike from '../Images/hike.png';
+import Island from '../Images/island.png';
 
 export default class Carousel extends Component {
   render() {

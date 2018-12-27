@@ -25,8 +25,7 @@ main {
 }
 
 #homeCarousel {
-  max-height: 500px;
-  min-width: auto;
+  max-height: none;
 }
 
 .dropdown:hover>.dropdown-menu {
@@ -72,4 +71,9 @@ font-size: 36px;
   color: white;
   margin: 0px;
   font-size: 16px;
+}
+
+.map-container {
+  /* width: 30%;
+  height: 30%; */
 }
