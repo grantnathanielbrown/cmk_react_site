@@ -24,10 +24,10 @@ export default class Navbar extends Component {
           Services
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <Link to="/psychotherapy" class="nav-link" >Psychotherapy</Link>
-          <Link to="/pharmacology" class="nav-link" >Pharmacology</Link>
-          <Link to="/medication-management" class="nav-link" >Medication Management</Link>
-          <Link to="/consultation" class="nav-link" >Consultation</Link>
+          <Link to="/Psychotherapy" class="nav-link" >Psychotherapy</Link>
+          <Link to="/Pharmacology" class="nav-link" >Pharmacology</Link>
+          <Link to="/Medication-management" class="nav-link" >Medication Management</Link>
+          <Link to="/Consultation" class="nav-link" >Consultation</Link>
         </div>
         </li>
       <li class="nav-item dropdown">

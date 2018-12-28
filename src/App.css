@@ -1,4 +1,4 @@
-
+/* ALL */
 * {
   margin: 0 auto;
   text-align: center;
@@ -11,6 +11,8 @@ body, html {
   height: 100vh;
 }
 
+/* MAIN */
+
 main {
   height: 100%;
   width: 60%;
@@ -18,6 +20,8 @@ main {
   flex-direction: column;
   justify-content: space-between;
 }
+
+/* HOME */
 
 .sideways {
   display: flex;
@@ -28,9 +32,6 @@ main {
   max-height: none;
 }
 
-.dropdown:hover>.dropdown-menu {
-  display: block;
-}
 .container {
   margin: 20px auto;
 }
@@ -45,9 +46,7 @@ font-size: 36px;
   font-weight: 300i;
   letter-spacing: 1px;
 }
-.specialties {
-  font-size: 20px;
-}
+
 .welcome {
   color: #9DCAE5;
   font-weight: 300i;
@@ -57,6 +56,22 @@ font-size: 36px;
 .description {
   font-size: 18px;
 }
+
+.specialties {
+  font-size: 20px;
+}
+
+/* NAV */
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.nav-item a:hover {
+  background-color: pink;
+}
+
+/* FOOTER */
 
 .prefooter {
   background-color: #7F7F7D;
@@ -71,9 +86,4 @@ font-size: 36px;
   color: white;
   margin: 0px;
   font-size: 16px;
-}
-
-.map-container {
-  /* width: 30%;
-  height: 30%; */
 }
