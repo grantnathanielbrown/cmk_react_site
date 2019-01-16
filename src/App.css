@@ -15,13 +15,15 @@ body, html {
 
 main {
   height: 100%;
-  width: 60%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
 /* HOME */
+.home-container {
+  width: 60%;
+}
 
 .sideways {
   display: flex;
@@ -67,12 +69,43 @@ font-size: 36px;
   display: block;
 }
 
+/* SECTIONS */
+
+.section-image {
+  background-image: url(../src/components/Images/horse.png);
+  height: 200px;
+  background-position: center;
+}
 .nav-item a:hover {
   background-color: pink;
 }
 
-/* FOOTER */
+/* SIDE NAVIGATION */
+.dropdown-content {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+}
 
+.dropdown-content ul {
+  list-style: none;
+  
+}
+
+.dropdown-content a {
+  text-decoration: none;
+}
+/* FOOTER */
+/* 
+.footer-container {
+  position: fixed;
+  bottom: 0;
+  min-width: 100%;
+} */
+
+.footer-container {
+  height: 30%;
+}
 .prefooter {
   background-color: #7F7F7D;
   width: 100%;

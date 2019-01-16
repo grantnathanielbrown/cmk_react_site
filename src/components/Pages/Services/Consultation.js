@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import SideNav from '../../Global/SideNav';
 
-export default class Psychotherapy extends Component {
+export default class Consultation extends Component {
   render() {
     let sections = ['Psychotherapy', 'Pharmacology', 'Medication-management', 'Consultation'];  
     return (
-      <div className="dropdown-content">
+      <div>
         <SideNav sections={sections}></SideNav>
-        psychic
+        consult
       </div>
     )
   }
