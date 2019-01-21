@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
 // import Footer from '../Global/Footer';
+import { Route, Link, Redirect, Switch } from 'react-router-dom';
 import Header from '../Global/Header';
 import RyanGosling from '../Images/RyanGosling10-19.JPG';
+import Dock from '../Images/dock.jpg';
+import Bench from '../Images/bench.jpg';
 import Carousel from '../Global/Carousel';
 export default class Home extends Component {
   render() {
@@ -25,6 +28,21 @@ export default class Home extends Component {
     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
     Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
     </div>
+
+    <div className="extra-links">
+
+    <figure className="extra-images">
+        <img src={Bench} alt='missing' />
+        <figcaption><Link to="#">Find out what I treat.</Link></figcaption>
+
+    </figure>
+
+    <figure className="extra-images">
+        <img src={Dock} alt='missing' />
+        <figcaption>Contact me.</figcaption>
+    </figure>
+    
+    </div>  
 </div>    
 
     )

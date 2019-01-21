@@ -19,6 +19,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  min-height: 68vh;
 }
 
 /* HOME */
@@ -29,6 +30,7 @@ main {
 .sideways {
   display: flex;
   flex-direction: row;
+  margin: 1em 0;
 }
 
 #homeCarousel {
@@ -58,13 +60,30 @@ font-size: 1.5em ;
 }
 .description {
   font-size: .8em;
+  margin: 0 0 0 1em;
 }
 
 .specialties {
   font-size: .9em;
 }
 
+.extra-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.extra-images img{
+  height: 300px;
+  width: 300px;
+
+}
+
+
 /* NAV */
+
+.navbar {
+  font-size: 1.1em;
+}
 
 .dropdown:hover>.dropdown-menu {
   display: block;
@@ -89,6 +108,9 @@ font-size: 1.5em ;
   font-size: .8em;
 }
 
+.dropdown-content a {
+  font-size: 1.5em;
+}
 .dropdown-content ul {
   list-style: none;
   
@@ -114,6 +136,7 @@ font-size: 1.5em ;
   color: white;
   margin: 0px;
   font-size: 1em;
+  padding: 2em;
 }
 .footer {
   background-color: #403F3F;
@@ -121,4 +144,5 @@ font-size: 1.5em ;
   color: white;
   margin: 0px;
   font-size: .6em;
+  padding: 2em;
 }
