@@ -96,6 +96,12 @@ font-size: 1.5em ;
   height: 200px;
   background-position: center;
 }
+
+.pharma img {
+  height: 300px;
+  width: 300px;
+}
+
 .nav-item a:hover {
   background-color: pink;
 }

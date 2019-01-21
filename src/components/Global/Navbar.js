@@ -35,9 +35,7 @@ export default class Navbar extends Component {
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
           <Link to="/Psychotherapy" class="nav-link" >Psychotherapy</Link>
-          <Link to="/Pharmacology" class="nav-link" >Pharmacology</Link>
-          <Link to="/Medication-management" class="nav-link" >Medication Management</Link>
-          <Link to="/Consultation" class="nav-link" >Consultation</Link>
+          <Link to="/Medication-management" class="nav-link" >Medication Management</Link>    
         </div>
         </li>
       <li class="nav-item dropdown">
@@ -45,11 +43,11 @@ export default class Navbar extends Component {
           What I Treat
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <Link to="/bipolar" class="nav-link" >Bipolar</Link>
-          <Link to="/adhd" class="nav-link" >ADHD</Link>
-          <Link to="/ocd" class="nav-link" >OCD</Link>
-          <Link to="/anxiety" class="nav-link" >Anxiety</Link>
-          <Link to="/depression" class="nav-link" >Depression</Link>
+          <Link to="/Anxiety" class="nav-link" >Anxiety</Link>
+          <Link to="/Depression" class="nav-link" >Depression</Link>
+          <Link to="/OCD" class="nav-link" >OCD</Link>
+          <Link to="/Sleep-disorders" class="nav-link" >Sleep Disorders</Link>
+          <Link to="/PTSD" class="nav-link" >PTSD</Link>
         </div>
         </li>
         <li class="nav-item dropdown">
@@ -57,9 +55,9 @@ export default class Navbar extends Component {
           Policies
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <Link to="/payment" class="nav-link" >Payment</Link>
-          <Link to="/confidentiality" class="nav-link" >Confidentiality</Link>
-          <Link to="/cancellation" class="nav-link" >Cancellation</Link>
+          <Link to="/Confidentiality" class="nav-link" >Confidentiality</Link>
+          <Link to="/Cancellation" class="nav-link" >Cancellation</Link>
+          <Link to="/Payment" class="nav-link" >Payment</Link>
         </div>
         </li>
         <li class="nav-item dropdown">
@@ -67,8 +65,8 @@ export default class Navbar extends Component {
           Contact
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <Link to="/contact-information" class="nav-link" >Contact Information</Link>
-          <Link to="/location" class="nav-link" >Location</Link>
+          <Link to="/Contact-information" class="nav-link" >Contact Information</Link>
+          <Link to="/Location" class="nav-link" >Location</Link>
         </div>
       </li>
     </ul>

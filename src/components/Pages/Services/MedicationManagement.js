@@ -3,7 +3,7 @@ import SideNav from '../../Global/SideNav';
 
 export default class MedicationManagement extends Component {
   render() {
-    let sections = ['Psychotherapy', 'Pharmacology', 'Medication-management', 'Consultation'];  
+    let sections = ['Psychotherapy', 'Medication-management'];  
     return (
       <div>
         <SideNav sections={sections}></SideNav>
