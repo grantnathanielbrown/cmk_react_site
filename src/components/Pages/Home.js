@@ -33,13 +33,13 @@ export default class Home extends Component {
 
     <figure className="extra-images">
         <img src={Bench} alt='missing' />
-        <figcaption><Link to="#">Find out what I treat.</Link></figcaption>
+        <figcaption><Link to="/Anxiety">Find out what I treat.</Link></figcaption>
 
     </figure>
 
     <figure className="extra-images">
         <img src={Dock} alt='missing' />
-        <figcaption>Contact me.</figcaption>
+        <figcaption><Link to="/Contact-information">Contact me.</Link></figcaption>
     </figure>
     
     </div>  

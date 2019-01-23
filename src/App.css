@@ -82,12 +82,29 @@ font-size: 1.5em ;
 /* NAV */
 
 .navbar {
-  font-size: 1.1em;
+  font-size: 1.0em;
 }
 
 .dropdown:hover>.dropdown-menu {
   display: block;
 }
+
+.nav-item {
+  margin: 0 1em;
+}
+.nav-item a:hover {
+  background-color: pink;
+}
+
+.nav-link:hover p {
+  color: purple;
+  
+}
+
+.nav-link p {
+  margin-bottom: 0;
+}
+
 
 /* SECTIONS */
 
@@ -100,10 +117,6 @@ font-size: 1.5em ;
 .pharma img {
   height: 300px;
   width: 300px;
-}
-
-.nav-item a:hover {
-  background-color: pink;
 }
 
 /* SIDE NAVIGATION */

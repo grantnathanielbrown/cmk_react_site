@@ -24,18 +24,18 @@ export default class Navbar extends Component {
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <Link to="/" class="nav-link">Home <span class="sr-only">(current)</span></Link>
+        <Link to="/" class="nav-link"><p>Home</p> <span class="sr-only">(current)</span></Link>
       </li>
       <li class="nav-item">
-        <Link to="/about" class="nav-link" >About</Link>
+        <Link to="/about" class="nav-link"><p>About</p></Link>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" onMouseOver={this.dropdownSlide} href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Services
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <Link to="/Psychotherapy" class="nav-link" >Psychotherapy</Link>
-          <Link to="/Medication-management" class="nav-link" >Medication Management</Link>    
+          <Link to="/Psychotherapy" class="nav-link"><p>Psychotherapy</p></Link>
+          <Link to="/Medication-management" class="nav-link"><p>Medication Management</p></Link>    
         </div>
         </li>
       <li class="nav-item dropdown">
@@ -43,11 +43,11 @@ export default class Navbar extends Component {
           What I Treat
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <Link to="/Anxiety" class="nav-link" >Anxiety</Link>
-          <Link to="/Depression" class="nav-link" >Depression</Link>
-          <Link to="/OCD" class="nav-link" >OCD</Link>
-          <Link to="/Sleep-disorders" class="nav-link" >Sleep Disorders</Link>
-          <Link to="/PTSD" class="nav-link" >PTSD</Link>
+          <Link to="/Anxiety" class="nav-link"><p>Anxiety</p></Link>
+          <Link to="/Depression" class="nav-link"><p>Oppression</p></Link>
+          <Link to="/OCD" class="nav-link"><p>OCD</p></Link>
+          <Link to="/Sleep-disorders" class="nav-link"><p>Sleep Disorders</p></Link>
+          <Link to="/PTSD" class="nav-link"><p>PTSD</p></Link>
         </div>
         </li>
         <li class="nav-item dropdown">
@@ -55,9 +55,9 @@ export default class Navbar extends Component {
           Policies
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <Link to="/Confidentiality" class="nav-link" >Confidentiality</Link>
-          <Link to="/Cancellation" class="nav-link" >Cancellation</Link>
-          <Link to="/Payment" class="nav-link" >Payment</Link>
+          <Link to="/Confidentiality" class="nav-link"><p>Confidentiality</p></Link>
+          <Link to="/Cancellation" class="nav-link"><p>Cancellation</p></Link>
+          <Link to="/Payment" class="nav-link"><p>Payment</p></Link>
         </div>
         </li>
         <li class="nav-item dropdown">
@@ -65,8 +65,8 @@ export default class Navbar extends Component {
           Contact
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <Link to="/Contact-information" class="nav-link" >Contact Information</Link>
-          <Link to="/Location" class="nav-link" >Location</Link>
+          <Link to="/Contact-information" class="nav-link"><p>Contact Information</p></Link>
+          <Link to="/Location" class="nav-link"><p>Location</p></Link>
         </div>
       </li>
     </ul>
