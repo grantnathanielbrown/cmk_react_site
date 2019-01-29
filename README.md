@@ -1,7 +1,6 @@
 # CMK'S Website
 
 ## to do
-- capitalize paths
 
 - import content to pages
 - add margins on everything

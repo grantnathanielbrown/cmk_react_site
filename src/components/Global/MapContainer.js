@@ -4,7 +4,8 @@ import {Map, InfoWindow, Marker, GoogleApiWrapper} from 'google-maps-react';
 export class MapContainer extends Component {
   render() {
     return (
-      <Map google={this.props.google}
+      
+      <Map className="map-container" google={this.props.google}
       initialCenter={{
         lat: 38.9402272,
         lng: -77.1776478

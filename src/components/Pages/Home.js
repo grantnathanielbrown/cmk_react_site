@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-// import Footer from '../Global/Footer';
+
 import { Route, Link, Redirect, Switch } from 'react-router-dom';
 import Header from '../Global/Header';
+import MapContainer from '../Global/MapContainer';
 import RyanGosling from '../Images/RyanGosling10-19.JPG';
 import Dock from '../Images/dock.jpg';
 import Bench from '../Images/bench.jpg';
@@ -41,7 +42,6 @@ export default class Home extends Component {
         <img src={Dock} alt='missing' />
         <figcaption><Link to="/Contact-information">Contact me.</Link></figcaption>
     </figure>
-    
     </div>  
 </div>    
 

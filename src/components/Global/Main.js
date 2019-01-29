@@ -6,7 +6,9 @@ import Footer from './Footer';
 
 import Psychotherapy from '../Pages/Services/Psychotherapy';
 import MedicationManagement from '../Pages/Services/MedicationManagement';
-import GoogleApiWrapper from './MapContainer';
+
+import ContactInformation from '../Pages/Contact/ContactInformation';
+
 
 const Main = () => (
   <div>
@@ -15,10 +17,12 @@ const Main = () => (
       <HashRouter>
         <Switch>
           <Route exact path="/" component={Home}/>
-          <Route exact path="/about" component={About}/>          
+          <Route exact path="/About" component={About}/>          
           
           <Route exact path="/Psychotherapy" component={Psychotherapy}/>          
-          <Route exact path="/Medication-management" component={MedicationManagement}/>          
+          <Route exact path="/Medication-management" component={MedicationManagement}/>
+
+          <Route exact path="/Contact-information" component={ContactInformation}/>          
         </Switch>
       </HashRouter>
     </main>
