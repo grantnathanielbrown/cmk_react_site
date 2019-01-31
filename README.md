@@ -1,12 +1,17 @@
 # CMK'S Website
 
-## to do
+## TO DO
+
+### PRIORITY
 
 - import content to pages
 - add margins on everything
 - add media queries to make mobile friendly
-- smooth animation on nav dropdown
+- add all images as background images in css
 
+### SECONDARY
+
+- smooth animation on nav dropdown
 - fix drop down cursor range
 
 

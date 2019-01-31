@@ -114,9 +114,40 @@ font-size: 1.5em ;
   background-position: center;
 }
 
-.pharma img {
-  height: 300px;
-  width: 300px;
+.fade-out {
+
+}
+
+@-webkit-keyframes fade-out {
+  from { opacity: 1; }
+  to   { opacity: 0; }
+}
+.fade-out {
+  -webkit-animation: fade-out 2s ease-in; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fade-out 2s ease-in; /* Firefox < 16 */
+  -ms-animation: fade-out 2s ease-in; /* Internet Explorer */
+  -o-animation: fade-out 2s ease-in; /* Opera < 12.1 */
+  animation: fade-out 2s ease-in;
+
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+}
+
+.fade-in {
+  opacity: 0;
+
+  -webkit-animation: fade-in 2s ease-in; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fade-in 2s ease-in; /* Firefox < 16 */
+  -ms-animation: fade-in 2s ease-in; /* Internet Explorer */
+  -o-animation: fade-in 2s ease-in; /* Opera < 12.1 */
+  animation: fade-in 2s ease-in;
+
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+}
+@-webkit-keyframes fade-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
 }
 
 /* SIDE NAVIGATION */
