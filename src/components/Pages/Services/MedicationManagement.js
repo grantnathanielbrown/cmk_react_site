@@ -13,7 +13,10 @@ export default class MedicationManagement extends Component {
       NavSections={medicationSections}
       SectionBlurb="medication-blurb"
       SectionTitle="Medication Management"
-      SectionParagraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      SectionParagraph="The use of decisions about medication are made through a discussion 
+      of potential benefits and side effects during your appointment.
+      Medications can help with symptoms of many disorders, and with sleep. 
+      Psychotherapy may be facilitated if significant symptoms are controlled with medication."
       ></Section>
     )
   }

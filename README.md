@@ -3,11 +3,12 @@
 ## TO DO
 
 ### PRIORITY
-
 - import content to pages
 - add margins on everything
 - add media queries to make mobile friendly
 - add all images as background images in css
+- center google maps
+- ONE PAGE POLCIES
 
 ### SECONDARY
 
@@ -20,16 +21,17 @@
 WHAT I TREAT
 1. anxiety
 2. depression
-3. ocd
-4. sleep disorder
-5. PTSD
+3. sleep disorder
+4. PTSD
+5. geriatric psychiatry
 
 
 SERVICES
 1. psychotherapy
 2. med management
+3. genetic testing
 
-POLICIES
+POLICIES = ONE PAGE
 1. confidentiality
 2. cancellations
 3. payment

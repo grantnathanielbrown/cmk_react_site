@@ -1,27 +1,29 @@
 import React, { Component } from 'react';
-import SideNav from '../../Global/SideNav';
-
-
-
+import Section from '../../Global/Section';
 
 
 export default class Psychotherapy extends Component {
-  render() {
-    let NavSections = ['Psychotherapy', 'Medication-management' ];  
+  render() {    
+    let psychotherapySections = ['Psychotherapy', 'Medication-management', 'Genetic-testing' ]
     return (
-    <div className="psycho">
-      <div className='section-image'>
-
-      </div>
-      <div className="dropdown-content">
-
-        <SideNav NavSections={NavSections}></SideNav>
-        <div className='blurb'>
-          <h1>Psychotherapy</h1>          
-          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."  </p>
-        </div>
-      </div>
-    </div>
+      <Section SectionContainer="psychotherapy-container" 
+      SectionImage="#"
+      // address background image
+      SectionContent="psychotherapy-content"      
+      NavSections={psychotherapySections}
+      SectionBlurb="psychotherapy-blurb"
+      SectionTitle="Psychotherapy"
+      SectionParagraph="Psychotherapies vary in their approaches, but all involve talking about feelings,
+      thoughts, and behaviors in ways that lead to meaningful constructive change. 
+      The most extensively studied psychotherapy is CBT. 
+      This technique focuses on thoughts that cause distress, and ways to manage them,
+      as well as the feelings and behaviors they influence. 
+      Other therapies include psychodynamic therapy for relationship issues,
+      help with bereavement for losses, cognitive re-programming for PTSD,
+      motivational interviewing for substance use issues, 
+      exposure and response prevention for OCD, and expressive therapy for other issues
+      such as life transitions, aging issues, et cetera.￼"
+      ></Section>
     )
   }
 }

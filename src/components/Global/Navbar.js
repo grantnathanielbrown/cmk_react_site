@@ -36,6 +36,7 @@ export default class Navbar extends Component {
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
           <Link to="/Psychotherapy" class="nav-link"><p>Psychotherapy</p></Link>
           <Link to="/Medication-management" class="nav-link"><p>Medication Management</p></Link>    
+          <Link to="/Genetic-testing" class="nav-link"><p>Genetic Testing</p></Link>    
         </div>
         </li>
       <li class="nav-item dropdown">
@@ -44,10 +45,10 @@ export default class Navbar extends Component {
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
           <Link to="/Anxiety" class="nav-link"><p>Anxiety</p></Link>
-          <Link to="/Depression" class="nav-link"><p>Oppression</p></Link>
-          <Link to="/OCD" class="nav-link"><p>OCD</p></Link>
+          <Link to="/Depression" class="nav-link"><p>Depression</p></Link>
           <Link to="/Sleep-disorders" class="nav-link"><p>Sleep Disorders</p></Link>
           <Link to="/PTSD" class="nav-link"><p>PTSD</p></Link>
+          <Link to="/Geriatric-psychiatry" class="nav-link"><p>Geriatric Psychiatry</p></Link>
         </div>
         </li>
         <li class="nav-item dropdown">
