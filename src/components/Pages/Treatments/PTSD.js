@@ -7,7 +7,7 @@ export default class PTSD extends Component {
     let PTSDSections = ['Anxiety', 'Depression', 'Sleep-disorders', 'PTSD', 'Geriatric-psychiatry']
     return (
       <Section SectionContainer="PTSD-container" 
-      SectionImage="#"
+      SectionImage="PTSD-image"
       // address background image
       SectionContent="PTSD-content"      
       NavSections={PTSDSections}

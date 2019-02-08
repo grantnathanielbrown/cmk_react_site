@@ -6,8 +6,9 @@ export default class Section extends Component {
       return (
       <div className={`section-container fade-in ${this.props.SectionContainer}`}>
         <div className={`section-image ${this.props.SectionImage}`}>
-  
+          
         </div>
+
         <div className={`dropdown-content ${this.props.SectionContent}`}>
   
           <SideNav SectionContainer={this.props.SectionContainer} NavSections={this.props.NavSections}></SideNav>

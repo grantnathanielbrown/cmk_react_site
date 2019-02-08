@@ -7,7 +7,7 @@ export default class GeneticTesting extends Component {
     let geneticSections = ['Psychotherapy', 'Medication-management', 'Genetic-testing' ]
     return (
       <Section SectionContainer="genetic-container" 
-      SectionImage="#"
+      SectionImage="genetic-image"
       // address background image
       SectionContent="genetic-content"      
       NavSections={geneticSections}

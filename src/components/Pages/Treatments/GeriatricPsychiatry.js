@@ -7,7 +7,7 @@ export default class GeriatricPsychiatry extends Component {
     let geriatricSections = ['Anxiety', 'Depression', 'Sleep-disorders', 'PTSD', 'Geriatric-psychiatry']
     return (
       <Section SectionContainer="geriatric-container" 
-      SectionImage="#"
+      SectionImage="geriatric-image"
       // address background image
       SectionContent="geriatric-content"      
       NavSections={geriatricSections}

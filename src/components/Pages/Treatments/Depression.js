@@ -7,7 +7,7 @@ export default class Depression extends Component {
     let depressionSections = ['Anxiety', 'Depression', 'Sleep-disorders', 'PTSD', 'Geriatric-psychiatry']
     return (
       <Section SectionContainer="depression-container" 
-      SectionImage="#"
+      SectionImage="depression-image"
       // address background image
       SectionContent="depression-content"      
       NavSections={depressionSections}

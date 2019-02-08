@@ -14,6 +14,11 @@ import SleepDisorders from '../Pages/Treatments/SleepDisorders';
 import PTSD from '../Pages/Treatments/PTSD';
 import GeriatricPsychiatry from '../Pages/Treatments/GeriatricPsychiatry';
 
+import Treatment from '../Pages/Policies/Treatment';
+import Termination from '../Pages/Policies/Termination';
+import Confidentiality from '../Pages/Policies/Confidentiality';
+import Fees from '../Pages/Policies/Fees';
+import Cancellation from '../Pages/Policies/Cancellation';
 
 import ContactInformation from '../Pages/Contact/ContactInformation';
 
@@ -37,6 +42,12 @@ const Main = () => (
           <Route exact path="/Sleep-disorders" component={SleepDisorders}/>
           <Route exact path="/PTSD" component={PTSD}/>
           <Route exact path="/Geriatric-psychiatry" component={GeriatricPsychiatry}/>
+
+          <Route exact path="/Treatment" component={Treatment}/>
+          <Route exact path="/Termination" component={Termination}/>
+          <Route exact path="/Confidentiality" component={Confidentiality}/>
+          <Route exact path="/Fees" component={Fees}/>
+          <Route exact path="/Cancellation" component={Cancellation}/>
 
           <Route exact path="/Contact-information" component={ContactInformation}/>          
         </Switch>

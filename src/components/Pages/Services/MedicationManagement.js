@@ -4,10 +4,10 @@ import Section from '../../Global/Section';
 
 export default class MedicationManagement extends Component {
   render() {    
-    let medicationSections = ['Psychotherapy', 'Medication-management' ]
+    let medicationSections = ['Psychotherapy', 'Medication-management', 'Genetic-testing' ]
     return (
       <Section SectionContainer="medication-container" 
-      SectionImage="#"
+      SectionImage="medication-image"
       // address background image
       SectionContent="medication-content"      
       NavSections={medicationSections}

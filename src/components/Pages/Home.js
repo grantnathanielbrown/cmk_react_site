@@ -4,7 +4,7 @@ import { Route, Link, Redirect, Switch } from 'react-router-dom';
 import Header from '../Global/Header';
 import MapContainer from '../Global/MapContainer';
 import RyanGosling from '../Images/RyanGosling10-19.JPG';
-import Dock from '../Images/dock.jpg';
+import oldPeople from '../Images/hey.jpg';
 import Bench from '../Images/bench.jpg';
 import Carousel from '../Global/Carousel';
 export default class Home extends Component {
@@ -29,13 +29,13 @@ export default class Home extends Component {
     <div className="extra-links">
 
     <figure className="extra-images">
-        <img src={Bench} alt='missing' />
-        <figcaption><Link to="/Anxiety">Find out what I treat.</Link></figcaption>
+        <img src={oldPeople} alt='missing' />
+        <figcaption><Link to="/Anxiety">Find out about treatment.</Link></figcaption>
 
     </figure>
 
     <figure className="extra-images">
-        <img src={Dock} alt='missing' />
+        <img src={Bench} alt='missing' />
         <figcaption><Link to="/Contact-information">Contact me.</Link></figcaption>
     </figure>
     </div>  

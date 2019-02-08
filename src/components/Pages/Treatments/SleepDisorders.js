@@ -7,7 +7,7 @@ export default class SleepDisorders extends Component {
     let sleepSections = ['Anxiety', 'Depression', 'Sleep-disorders', 'PTSD', 'Geriatric-psychiatry']
     return (
       <Section SectionContainer="sleep-container" 
-      SectionImage="#"
+      SectionImage="sleep-image"
       // address background image
       SectionContent="sleep-content"      
       NavSections={sleepSections}

@@ -29,7 +29,7 @@ export default class SideNav extends Component {
     disappearingContent[0].className = this.state.dynamicClass;
     setTimeout( function(){
       window.location = x;
-    }, 4000 )
+    }, 100 )
   } 
 
 

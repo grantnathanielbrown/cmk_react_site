@@ -3,19 +3,22 @@
 ## TO DO
 
 ### PRIORITY
+
 - import content to pages
 - add margins on everything
 - add media queries to make mobile friendly
 - add all images as background images in css
 - center google maps
-- ONE PAGE POLCIES
-
-### SECONDARY
-
-- smooth animation on nav dropdown
+- fixed fees page and cancellation page for bullet points
 - fix drop down cursor range
 
 
+### SECONDARY
+- fix carousel
+- smooth animation on nav dropdown
+- improve color scheme
+- make policies one page again within page hrefs()
+- site nav links same line
 # CMK
 
 WHAT I TREAT
@@ -31,7 +34,9 @@ SERVICES
 2. med management
 3. genetic testing
 
-POLICIES = ONE PAGE
-1. confidentiality
-2. cancellations
-3. payment
+POLICIES 
+1. treatment
+2. termination
+3. confidentiality
+4. fees
+5. cancellation',75f()

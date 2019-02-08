@@ -105,15 +105,6 @@ font-size: 1.5em ;
   margin-bottom: 0;
 }
 
-
-/* SECTIONS */
-
-.section-image {
-  background-image: url(../src/components/Images/horse.png);
-  height: 200px;
-  background-position: center;
-}
-
 .fade-out {
 
 }
@@ -153,6 +144,72 @@ font-size: 1.5em ;
   to   { opacity: 1; }
 }
 
+/* ABOUT */
+
+.about {
+  width: 60%
+}
+
+.about img {
+  height: 250px
+}
+
+.about-background {
+  background-image: url(../src/components/Images/waves_cannon_07.jpg);
+}
+/* SECTIONS */
+
+.section-image {
+  height: 200px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* SECTION IMAGES */
+
+.psychotherapy-image {
+  background-position: 50% 45%;
+  background-image: url(../src/components/Images/psychotherapy-banner.jpg);
+}
+
+.medication-image {
+  background-position: 50%;
+  background-image: url(../src/components/Images/1fd32a5a7af89ce657a1129e583d47be.jpg);
+}
+
+.genetic-image {
+  background-position: 50% 45%;
+  background-image: url(../src/components/Images/genetic-testing-banner.jpg);
+}
+
+
+.anxiety-image {
+  background-position: 50%;
+  background-image: url(../src/components/Images/knot.jpeg);
+}
+
+.depression-image {
+  background-position: 50% 30%;
+  background-image: url(../src/components/Images/depression-be.jpg);
+}
+
+.sleep-image {
+  background-position: 50% 40%;
+  background-image: url(../src/components/Images/Sleeping.jpeg);
+}
+
+.PTSD-image {
+  background-position: 50% 70%;
+  background-image: url(../src/components/Images/cc32e202-8685-48b5-bf52-c45da58bc4f6-large16x9_MO1_1838Edit.jpg);
+}
+
+
+.geriatric-image {
+  background-position: 50% 40%;
+  background-image: url(../src/components/Images/Senior-Travel-Problems.jpg);
+}
 /* SIDE NAVIGATION */
 .dropdown-content {
   width: 60%;
