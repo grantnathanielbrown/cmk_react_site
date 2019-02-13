@@ -21,9 +21,15 @@ export default class Anxiety extends Component {
       trembling, shortness of breath, choking, chest pain, nausea, dizziness, chills, numbness, 
       fear of dying, or even derealization (a feeling of unreality)
       These conditions lead to avoidance of normal activities, and cause significant distress. 
-      Treatment restores functioning and quality of life. A combination of CBT and an understanding 
+      A combination of CBT and an understanding 
       of the triggers of anxiety can be helpful...
       Anxiolytic and antidepressant medications are indicated for Generalized Anxiety Disorder and Panic Attacks. Relaxation techniques, meditation, and yoga play a role as well as enhanced leisure activities.
+      
+      
+      
+      
+      
+      
       Obsessive Compulsive Disorder is a specific anxiety disorder that includes obsessions: recurrent 
       thoughts that are experienced as unwanted and compulsions: repetitive behaviors the individual 
       feels driven to perform.

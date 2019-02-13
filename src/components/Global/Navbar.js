@@ -57,18 +57,7 @@ export default class Navbar extends Component {
         </div>
       </li>
 
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" onMouseOver={this.dropdownSlide} href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Policies
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <Link to="/Treatment" class="nav-link"><p>Treatment</p></Link>
-          <Link to="/Termination" class="nav-link"><p>Termination</p></Link>
-          <Link to="/Confidentiality" class="nav-link"><p>Confidentiality</p></Link>
-          <Link to="/Fees" class="nav-link"><p>Fees</p></Link>
-          <Link to="/Cancellation" class="nav-link"><p>Cancellation</p></Link>
-        </div>
-        </li>
+      <Link to="/Policies" class="nav-link"><p>Policies</p></Link>
 
         <Link to="/Contact-information" class="nav-link"><p>Contact</p></Link>
 

@@ -2,24 +2,33 @@
 
 ## TO DO
 
+### IDEAS
+
+- bar appears under text on mouse over nav, text darkens a bit
+- delete fitness images
 ### PRIORITY
 
-- import content to pages
+- new section for ocd and bipolar
+- fix zooming of images and resolution on images in home and anxiety
 - add margins on everything
 - add media queries to make mobile friendly
-- add all images as background images in css
 - center google maps
-- fixed fees page and cancellation page for bullet points
-- fix drop down cursor range
 
 
 ### SECONDARY
+
+- fix drop down cursor range
 - fix carousel
 - smooth animation on nav dropdown
 - improve color scheme
 - make policies one page again within page hrefs()
-- site nav links same line
+- site nav links text same line
+
 # CMK
+
+2/8/2018
+
+
 
 WHAT I TREAT
 1. anxiety

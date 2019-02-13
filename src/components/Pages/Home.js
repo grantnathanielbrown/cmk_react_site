@@ -3,9 +3,9 @@ import React, { Component } from 'react';
 import { Route, Link, Redirect, Switch } from 'react-router-dom';
 import Header from '../Global/Header';
 import MapContainer from '../Global/MapContainer';
-import RyanGosling from '../Images/RyanGosling10-19.JPG';
+import CMK from '../Images/cmk_full.jpg';
 import oldPeople from '../Images/hey.jpg';
-import Bench from '../Images/bench.jpg';
+import Bench from '../Images/serenity.jpeg';
 import Carousel from '../Global/Carousel';
 export default class Home extends Component {
   render() {
@@ -14,16 +14,25 @@ export default class Home extends Component {
     <Header></Header>
     <Carousel></Carousel>
     <div className="sideways">
-<figure>
-    <img src={RyanGosling} alt='missing' />
+<figure className="cmk_full">
+    <img src={CMK} alt='missing' />
     <figcaption>Christen M. Kerr</figcaption>
 </figure>
       
-
-    {/* <p className="welcome">WELCOME TO MY PRACTICE</p> */}
-    <p className="description">Dr. Kerr is a compassionate physician who calls upon many years of experience plus the latest in cutting edge science to design unique treatments for each patient.  
-    A thorough understanding of each individual allows for treatment that may include psychotherapy and medication management, as needed. 
-    Therapy is delivered in an environment of confidentiality and support. </p>
+    {/* <p className="description"> I call upon many years of experience plus the latest in cutting edge science to design unique treatments for each patient.   */}
+    A thorough understanding of each individual allows for treatment including psychotherapy with or without medication management, as needed. 
+    Therapy is delivered in an environment of confidentiality and support.
+    
+    <br>
+    </br>
+    <br>
+    </br>
+    
+    You are invited to explore below to learn about my expertise and practice.
+    I look forward to having an opportunity to work with you.
+    
+    {/* </p> */}
+    
     </div>
 
     <div className="extra-links">

@@ -22,7 +22,7 @@ export default class Psychotherapy extends Component {
       help with bereavement for losses, cognitive re-programming for PTSD,
       motivational interviewing for substance use issues, 
       exposure and response prevention for OCD, and expressive therapy for other issues
-      such as life transitions, aging issues, et cetera.￼"
+      such as life transitions, aging issues and the like.￼"
       ></Section>
     )
   }

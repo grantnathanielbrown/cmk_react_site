@@ -52,6 +52,11 @@ font-size: 1.5em ;
   letter-spacing: .08em;
 }
 
+.cmk_full img {
+  width: auto;
+  max-height: 10em;
+}
+
 .welcome {
   color: #9DCAE5;
   font-weight: 300i;
@@ -72,17 +77,43 @@ font-size: 1.5em ;
   flex-direction: row;
   justify-content: space-between;
 }
+
+.extra-links a {
+  text-decoration: none;
+}
 .extra-images img{
-  height: 300px;
-  width: 300px;
+  height: 12em;
+  width: auto;
+  margin: 1.5em 1.5em 0 1.5em;
 
 }
 
+
+/* ABOUT */
+
+.about {
+  width: 60%
+}
+
+.about * {
+  margin: .5em;
+}
+
+
+.about-background {
+
+  background-image: url(../src/components/Images/waves_cannon_07.jpg);
+}
+
+.about li {
+  list-style: none;
+}
 
 /* NAV */
 
 .navbar {
   font-size: 1.0em;
+  padding: 0;
 }
 
 .dropdown:hover>.dropdown-menu {
@@ -93,13 +124,9 @@ font-size: 1.5em ;
   margin: 0 1em;
 }
 .nav-item a:hover {
-  background-color: pink;
+  background-color: #9DCAE5;
 }
 
-.nav-link:hover p {
-  color: purple;
-  
-}
 
 .nav-link p {
   margin-bottom: 0;
@@ -144,23 +171,10 @@ font-size: 1.5em ;
   to   { opacity: 1; }
 }
 
-/* ABOUT */
-
-.about {
-  width: 60%
-}
-
-.about img {
-  height: 250px
-}
-
-.about-background {
-  background-image: url(../src/components/Images/waves_cannon_07.jpg);
-}
 /* SECTIONS */
 
 .section-image {
-  height: 200px;
+  height: 8em;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -228,6 +242,13 @@ font-size: 1.5em ;
 
 .dropdown-content a {
   text-decoration: none;
+}
+
+/* POLICIES */
+
+.policies-container h1 {
+  width: 80%;
+  margin: 1em 0;
 }
 /* MAP */
 
