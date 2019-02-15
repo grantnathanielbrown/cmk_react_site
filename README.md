@@ -9,7 +9,6 @@
 ### PRIORITY
 
 - new section for ocd and bipolar
-- fix zooming of images and resolution on images in home and anxiety
 - add margins on everything
 - add media queries to make mobile friendly
 - center google maps
@@ -20,13 +19,10 @@
 - fix drop down cursor range
 - fix carousel
 - smooth animation on nav dropdown
-- improve color scheme
 - make policies one page again within page hrefs()
 - site nav links text same line
 
 # CMK
-
-2/8/2018
 
 
 
@@ -48,4 +44,4 @@ POLICIES
 2. termination
 3. confidentiality
 4. fees
-5. cancellation',75f()
+5. cancellation

@@ -114,6 +114,7 @@ font-size: 1.5em ;
 .navbar {
   font-size: 1.0em;
   padding: 0;
+
 }
 
 .dropdown:hover>.dropdown-menu {
@@ -127,14 +128,41 @@ font-size: 1.5em ;
   background-color: #9DCAE5;
 }
 
+.slider {
+  max-height: 2.1em;
+}
 
 .nav-link p {
   margin-bottom: 0;
 }
 
-.fade-out {
+.nav-item hr {
+  margin: 0;
+  border-top: 5px solid red;
+  
+}
+
+
+@keyframes slide-in {
+  /* from { opacity: 1; }
+  to   { opacity: 0; } */
+  from { width: 0%; }
+  to   { width: 100%; }
+}
+
+.slide-in {
+
+  -webkit-animation: slide-in 0.2s ease-out; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: slide-in 0.2s ease-out; /* Firefox < 16 */
+  -ms-animation: slide-in 0.2s ease-out; /* Internet Explorer */
+  -o-animation: slide-in 0.2s ease-out; /* Opera < 12.1 */
+  animation: slide-in 0.2s ease-out;
+
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
 
 }
+
 
 @keyframes fade-out {
   /* from { opacity: 1; }
