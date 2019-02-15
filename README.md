@@ -4,11 +4,10 @@
 
 ### IDEAS
 
-- bar appears under text on mouse over nav, text darkens a bit
+
 - delete fitness images
 ### PRIORITY
-
-- new section for ocd and bipolar
+- fix rope?
 - add margins on everything
 - add media queries to make mobile friendly
 - center google maps
