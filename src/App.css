@@ -42,7 +42,7 @@ main {
 }
 .title {
 color: #BF554C;
-font-weight: 400;
+font-weight: 700;
 letter-spacing: .08em;
 font-size: 1.5em ;
 }
@@ -56,7 +56,7 @@ font-size: 1.5em ;
   width: auto;
   max-height: 10em;
 }
-
+__init__
 .welcome {
   color: #9DCAE5;
   font-weight: 300i;
@@ -117,6 +117,10 @@ font-size: 1.5em ;
 
 }
 
+.navbar-brand {
+  margin-left: 1em;
+}
+
 .dropdown:hover>.dropdown-menu {
   display: block;
 }
@@ -138,7 +142,7 @@ font-size: 1.5em ;
 
 .nav-item hr {
   margin: 0;
-  border-top: 5px solid red;
+  border-top: 4px solid #BF554C;
   
 }
 
@@ -265,19 +269,40 @@ font-size: 1.5em ;
 }
 .dropdown-content ul {
   list-style: none;
-  
+  margin: .5em;
 }
 
 .dropdown-content a {
   text-decoration: none;
 }
 
+.dropdown-content h1 {
+  margin: .5em;
+}
 /* POLICIES */
 
+.policies-container {
+  width: 70%;
+}
+
+.policy-header {
+  font-size: 2em;
+}
+
+
+.policies-container span {
+  font-weight: 700;
+} 
+
 .policies-container h1 {
-  width: 80%;
   margin: 1em 0;
 }
+
+
+
+
+
+
 /* MAP */
 
 .m-container {
@@ -289,13 +314,6 @@ font-size: 1.5em ;
   max-height: 70vh !important;
   left: 45vh;  
 }
-/* FOOTER */
-/* 
-.footer-container {
-  position: fixed;
-  bottom: 0;
-  min-width: 100%;
-} */
 
 .footer-container {
   height: 30%;

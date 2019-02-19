@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 
-import { BrowserRouter,Route, Link, Redirect, Switch } from 'react-router-dom';
 
 export default class Policies extends Component {
   render() {
@@ -8,7 +7,7 @@ export default class Policies extends Component {
 
       <div className="policies-container">
       
-      <h1>Policies</h1>
+      <h1 className="policy-header">Policies</h1>
 
       
       <div id="treatment">
@@ -60,16 +59,9 @@ export default class Policies extends Component {
 
       <div id="cancellation">
       <h1>Cancellation</h1>
-    A fee of $255 is charged for missed appointments unless they are canceled or rescheduled at least 24 hours prior.
+    A fee of <span>$255</span> is charged for missed appointments unless they are canceled or rescheduled at least 24 hours prior.
       Note: A diagnostic and treatment fees are subject to a 2% increase every January  
       
-      </div>
-
-
-
-
-      <div className="policies-nav">
-      <Link to="#treatment">Treatment</Link>
       </div>
 
 

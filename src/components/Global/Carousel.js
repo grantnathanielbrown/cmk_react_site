@@ -2,6 +2,9 @@ import React, { Component } from 'react'
 import Bike from '../Images/bike.png';
 import Hike from '../Images/hike.png';
 import Island from '../Images/island.png';
+import Window from '../Images/istockphoto-841246134-612x612.jpg';
+import DC from '../Images/8151987436_d05fa6aa07_b.jpg';
+import Skyline from '../Images/Washington-DC-skyline.jpg';
 
 export default class Carousel extends Component {
   render() {
@@ -16,6 +19,15 @@ export default class Carousel extends Component {
     </div>
     <div class="carousel-item">
       <img class="d-block w-100" src={Island} alt="Third slide"/>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src={Window} alt="Fourth slide"/>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src={DC} alt="Fifth slide"/>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src={Skyline} alt="Sixth slide"/>
     </div>
   </div>
   <a class="carousel-control-prev" href="#homeCarousel" role="button" data-slide="prev">

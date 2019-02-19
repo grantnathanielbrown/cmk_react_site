@@ -5,8 +5,8 @@
 ### IDEAS
 
 
-- delete fitness images
 ### PRIORITY
+
 - fix rope?
 - add margins on everything
 - add media queries to make mobile friendly
@@ -18,7 +18,6 @@
 - fix drop down cursor range
 - fix carousel
 - smooth animation on nav dropdown
-- make policies one page again within page hrefs()
 - site nav links text same line
 
 # CMK
