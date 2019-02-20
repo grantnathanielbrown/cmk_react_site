@@ -2,15 +2,20 @@
 
 ## TO DO
 
-### IDEAS
+### MOBILE PRIORITIES
+
+- hide side nav
+
+### MOBILE SECONDARIES
+
+- slider side nav
 
 
 ### PRIORITY
 
-- fix rope?
-- add margins on everything
+
+
 - add media queries to make mobile friendly
-- center google maps
 
 
 ### SECONDARY
@@ -18,7 +23,7 @@
 - fix drop down cursor range
 - fix carousel
 - smooth animation on nav dropdown
-- site nav links text same line
+
 
 # CMK
 

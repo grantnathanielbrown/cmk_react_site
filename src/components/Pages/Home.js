@@ -45,7 +45,7 @@ export default class Home extends Component {
 
     <figure className="extra-images">
         <img src={Bench} alt='missing' />
-        <figcaption><Link to="/Contact-information">Contact me.</Link></figcaption>
+        <figcaption className="fig-bottom"><Link to="/Contact-information">Contact me.</Link></figcaption>
     </figure>
     </div>  
 </div>    

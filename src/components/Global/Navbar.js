@@ -60,10 +60,10 @@ export default class Navbar extends Component {
         return (
       <div>
           <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  {/* <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown">
-    <span class="navbar-toggler-icon"></span>
-  </button> */}
   <a class="navbar-brand" href="#">CHRISTEN M. KERR M.D., P.C.</a>
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown">
+    <span class="navbar-toggler-icon"></span>
+  </button>
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
 
     <ul class="navbar-nav">

@@ -56,7 +56,7 @@ font-size: 1.5em ;
   width: auto;
   max-height: 10em;
 }
-__init__
+
 .welcome {
   color: #9DCAE5;
   font-weight: 300i;
@@ -266,15 +266,22 @@ __init__
 
 .dropdown-content a {
   font-size: 1.5em;
+  color: #696969;
+  text-decoration: none;
+}
+
+.dropdown-content a:hover {
+  color: black;
 }
 .dropdown-content ul {
   list-style: none;
+  
   margin: .5em;
 }
 
-.dropdown-content a {
-  text-decoration: none;
-}
+
+  
+
 
 .dropdown-content h1 {
   margin: .5em;
@@ -339,4 +346,56 @@ __init__
   margin: 0px;
   font-size: .6em;
   padding: 2em;
+}
+
+/* MOBILE */
+
+@media (max-width: 426px) {
+  /* HOME */
+  .home-container {
+    width: 90vw;
+  }
+  .sideways {
+    display: initial;
+  }
+  .extra-links {
+    display: initial;
+    /* flex-direction: ;
+    justify-content: space-between; */
+  }
+  .extra-images img { 
+    height: auto;
+    width: 90vw;
+    margin: 1.5em 0;
+  }
+  figure {
+    margin: 0;
+  }
+  .fig-bottom {
+    margin-bottom: 1.5em;
+  }
+  /* ABOUT */
+  .about {
+    width: initial;
+  }  
+  .about ul {
+    padding: 0;
+  }
+
+  /* SECTION */
+  .side-nav-container {
+    display: none;
+  }
+  .dropdown-content {
+    width: initial;
+  }
+
+  /* POLICIES */
+  .policies-container {
+    width: initial;
+  }
+  /* CONTACT */
+  .m-container {
+    min-height: initial;
+  }
 }

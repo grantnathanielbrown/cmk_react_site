@@ -11,7 +11,7 @@ export default class Section extends Component {
 
         <div className={`dropdown-content ${this.props.SectionContent}`}>
   
-          <SideNav SectionContainer={this.props.SectionContainer} NavSections={this.props.NavSections}></SideNav>
+          <SideNav className="sidenav" SectionContainer={this.props.SectionContainer} NavSections={this.props.NavSections}></SideNav>
           <div className={`blurb ${this.props.SectionBlurb}`}>
             <h1>{this.props.SectionTitle}</h1>          
             <p>{this.props.SectionParagraph}</p>
