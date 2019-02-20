@@ -233,7 +233,7 @@ __init__
 
 .anxiety-image {
   background-position: 50%;
-  background-image: url(../src/components/Images/untitled\ \(2\).png);
+  background-image: url(../src/components/Images/Hugo\ bend\ \(front\ view\).JPG)
 }
 
 .depression-image {
@@ -279,6 +279,11 @@ __init__
 .dropdown-content h1 {
   margin: .5em;
 }
+
+.side-nav-container {
+  min-width: 40%;
+}
+
 /* POLICIES */
 
 .policies-container {
@@ -306,13 +311,14 @@ __init__
 /* MAP */
 
 .m-container {
+  position: relative;
   min-height: 100vh;
+  min-width: 70%;
 }
 
 .map-container {
-  max-width: 70vh  !important;
   max-height: 70vh !important;
-  left: 45vh;  
+  
 }
 
 .footer-container {

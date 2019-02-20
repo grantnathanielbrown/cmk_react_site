@@ -37,10 +37,11 @@ export default class SideNav extends Component {
 
   render(props) {
     let NavSections = this.props.NavSections.map((section, i) => {
-      return <li><Link onClick={this.fadeOut} to={`/${section}`}>{section}</Link></li>
+      let modifiedSection = section.replace("-", " ");
+      return <li><Link onClick={this.fadeOut} to={`/${section}`}>{modifiedSection}</Link></li>
     })
     return (
-      <div>
+      <div className="side-nav-container">
         <ul>
           {NavSections}           
         </ul>
