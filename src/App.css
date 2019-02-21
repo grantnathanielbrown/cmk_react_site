@@ -348,7 +348,24 @@ font-size: 1.5em ;
   padding: 2em;
 }
 
-/* MOBILE */
+/* MOBILE SMALL */
+
+@media (max-width: 321px) {
+  /* HOME */
+  .navbar-brand {
+    font-size: .7em;
+  }
+  .cmk_full img {
+    margin: 1em 0;
+    max-height: 7em;
+  }
+  /* ABOUT */
+  .about h1 {
+    font-size: 2rem;
+  }
+}
+
+/* MOBILE LARGE */
 
 @media (max-width: 426px) {
   /* HOME */
