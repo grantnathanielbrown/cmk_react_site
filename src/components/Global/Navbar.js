@@ -10,7 +10,7 @@ export default class Navbar extends Component {
     this.dropdownSlide = this.dropdownSlide.bind(this);
     this.createLine = this.createLine.bind(this);
     this.removeLine = this.removeLine.bind(this);
-    // this.cancelAnimation = this.cancelAnimation.bind(this);
+    // 
     // this.addAnimation = this.addAnimation.bind(this);
   }
   // componentDidMount() {
@@ -100,9 +100,9 @@ export default class Navbar extends Component {
     let k;
     let l;
 
-    if (window.innerWidth > 480) {
-      console.log(window.innerWidth);
-      console.log("it's not a phone");
+    if (window.innerHeight > 415) {
+      console.log(window.innerHeight);
+      console.log("it's not most phones");
       
         a = <p onMouseOver={this.createLine} onMouseOut={this.removeLine}>Home</p>
         b = <p onMouseOver={this.createLine} onMouseOut={this.removeLine}>About</p>      
