@@ -79,12 +79,12 @@ self.__precacheManifest = [
     "url": "/cmk_react_site/static/media/waves_cannon_07.34509bfe.jpg"
   },
   {
-    "revision": "de14134097f090f3b2f59d53105155b2",
-    "url": "/cmk_react_site/static/media/Senior-Travel-Problems.de141340.jpg"
-  },
-  {
     "revision": "a9f306440c84d0d0a74e2e44f748757d",
     "url": "/cmk_react_site/static/media/Hugo bend (front view).a9f30644.JPG"
+  },
+  {
+    "revision": "de14134097f090f3b2f59d53105155b2",
+    "url": "/cmk_react_site/static/media/Senior-Travel-Problems.de141340.jpg"
   },
   {
     "revision": "b485fee8b51edf581243e905dee4c181",
