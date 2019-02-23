@@ -9,7 +9,7 @@ export default class Footer extends Component {
         </div>
         <div class="footer">
             1307 DOLLEY MADISON BLVD, SUITE 3C MCLEAN, VA 22101    
-            703-734-7961    
+            <a href="tel:703-734-7961"> 703-734-7961 </a>
             COPYRIGHT 2018 CHRISTEN M. KERR | ALL RIGHTS RESERVED | SITE BY GRANT N BROWN
         </div>
       </div>

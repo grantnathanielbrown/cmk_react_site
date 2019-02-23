@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import { Route, Link, Redirect, Switch } from 'react-router-dom';
 import Header from '../Global/Header';
 import MapContainer from '../Global/MapContainer';
-import CMK from '../Images/cmk_full.jpg';
+import CMK from '../Images/ChristenKerr-245.JPG';
 import oldPeople from '../Images/hey.jpg';
 import Bench from '../Images/serenity.jpeg';
 import Carousel from '../Global/Carousel';

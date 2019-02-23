@@ -10,8 +10,37 @@ export default class Navbar extends Component {
     this.dropdownSlide = this.dropdownSlide.bind(this);
     this.createLine = this.createLine.bind(this);
     this.removeLine = this.removeLine.bind(this);
+    // this.cancelAnimation = this.cancelAnimation.bind(this);
+    // this.addAnimation = this.addAnimation.bind(this);
   }
+  // componentDidMount() {
+  //   this.addAnimation();
+  //   this.cancelAnimation();
+  // }
 
+  // addAnimation() {
+  //   let x = document.getElementsByClassName("redline");
+  //   console.log(x);
+  //   for (let i = 0; i < x.length ; i++) {
+  //     console.log(x[i]);
+  //     x[i].classList.add("huge");
+  //     x[i].addEventListener("onMouseOver", this.createLine);
+  //     x[i].addEventListener("onMouseOut", this.removeLine);
+  //     console.log(x[i]);
+  //   }
+    
+  // }
+
+  // cancelAnimation() {
+  //   let x = document.getElementsByClassName("redline");
+  //   console.log(x);
+  //   for (let i = 0; i < x.length ; i++) {
+  //     console.log(x[i]);
+  //     x[i].removeEventListener("onMouseOver", this.createLine);
+  //     console.log(x[i]);
+  //   }
+    
+  // }
   createLine(e) {
 
     // 1. onHover event associated with nav items
@@ -57,56 +86,104 @@ export default class Navbar extends Component {
     var x = document.getElementsByClassName(".dropdown-toggle");
   }
   render() {
+    // LORD FORGIVE ME FOR WHAT I MUST DO
+    let a;
+    let b;
+    let c;
+    let d;
+    let e;
+    let f;
+    let g;
+    let h;
+    let i;
+    let j;
+    let k;
+    let l;
+
+    if (window.innerWidth > 480) {
+      console.log(window.innerWidth);
+      console.log("it's not a phone");
+      
+        a = <p onMouseOver={this.createLine} onMouseOut={this.removeLine}>Home</p>
+        b = <p onMouseOver={this.createLine} onMouseOut={this.removeLine}>About</p>      
+        c = <p onMouseOver={this.createLine} onMouseOut={this.removeLine}>Psychotherapy</p>      
+        d = <p onMouseOver={this.createLine} onMouseOut={this.removeLine}>Medication Management</p>      
+        e = <p onMouseOver={this.createLine} onMouseOut={this.removeLine}>Genetic Testing</p>      
+        f = <p onMouseOver={this.createLine} onMouseOut={this.removeLine}>Anxiety</p>      
+        g = <p onMouseOver={this.createLine} onMouseOut={this.removeLine}>Depression</p>      
+        h = <p onMouseOver={this.createLine} onMouseOut={this.removeLine}>Sleep Disorders</p>      
+        i = <p onMouseOver={this.createLine} onMouseOut={this.removeLine}>PTSD</p>      
+        j = <p onMouseOver={this.createLine} onMouseOut={this.removeLine}>Geriatric Psychiatry</p>
+        k = <p onMouseOver={this.createLine} onMouseOut={this.removeLine}>Policies</p>      
+        l = <p onMouseOver={this.createLine} onMouseOut={this.removeLine}>Contact</p>            
+
+    } else {
+      a = <p>Home</p>
+      b = <p>About</p>
+      c = <p>Psychotherapy</p>
+      d = <p>Medication Management</p>
+      e = <p>Genetic Testing</p>
+      f = <p>Anxiety</p>
+      g = <p>Depression</p>
+      h = <p>Sleep Disorders</p>
+      i = <p>PTSD</p>
+      j = <p>Geriatric Psychiatry</p>
+      k = <p>Policies</p> 
+      l = <p>Contact</p>
+
+
+
+    }
         return (
       <div>
-          <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">CHRISTEN M. KERR M.D., P.C.</a>
-  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown">
-    <span class="navbar-toggler-icon"></span>
+          <nav className="navbar navbar-expand-lg navbar-light bg-light">
+  <a className="navbar-brand" href="#">CHRISTEN M. KERR M.D., P.C.</a>
+  <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown">
+    <span className="navbar-toggler-icon"></span>
   </button>
-  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+  <div className="collapse navbar-collapse" id="navbarNavDropdown">
 
-    <ul class="navbar-nav">
+    <ul className="navbar-nav">
 
-      <li  class="nav-item">
-        <Link  to="/" class="nav-link slider"><p onMouseOver={this.createLine} onMouseOut={this.removeLine} >Home</p></Link>        
+      <li  className="nav-item">
+        <Link  to="/" className="nav-link slider">{a}</Link>        
       </li>
       
 
-      <li class="nav-item">
-        <Link to="/about" class="nav-link slider"><p onMouseOver={this.createLine} onMouseOut={this.removeLine} >About</p></Link>
+      <li className="nav-item">
+        <Link to="/about" className="nav-link slider">{b}</Link>
       </li>
 
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" onMouseOver={this.dropdownSlide} href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <li className="nav-item dropdown">
+        <a className="nav-link dropdown-toggle" onMouseOver={this.dropdownSlide} href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Services
         </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <Link to="/Psychotherapy" class="nav-link"><p onMouseOver={this.createLine} onMouseOut={this.removeLine} >Psychotherapy</p></Link>          
-          <Link to="/Medication-management" class="nav-link"><p onMouseOver={this.createLine} onMouseOut={this.removeLine} >Medication Management</p></Link>    
-          <Link to="/Genetic-testing" class="nav-link"><p onMouseOver={this.createLine} onMouseOut={this.removeLine} >Genetic Testing</p></Link>    
+        <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <Link to="/Psychotherapy" className="nav-link">{c}</Link>          
+          <Link to="/Medication-management" className="nav-link">{d}</Link>    
+          <Link to="/Genetic-testing" className="nav-link">{e}</Link>    
         </div>
       </li>
       
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" onMouseOver={this.dropdownSlide} href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <li className="nav-item dropdown">
+        <a className="nav-link dropdown-toggle" onMouseOver={this.dropdownSlide} href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           What I Treat
         </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <Link to="/Anxiety" class="nav-link"><p onMouseOver={this.createLine} onMouseOut={this.removeLine} >Anxiety</p></Link>
-          <Link to="/Depression" class="nav-link"><p onMouseOver={this.createLine} onMouseOut={this.removeLine} >Depression</p></Link>
-          <Link to="/Sleep-disorders" class="nav-link"><p onMouseOver={this.createLine} onMouseOut={this.removeLine} >Sleep Disorders</p></Link>
-          <Link to="/PTSD" class="nav-link"><p onMouseOver={this.createLine} onMouseOut={this.removeLine} >PTSD</p></Link>
-          <Link to="/Geriatric-psychiatry" class="nav-link"><p onMouseOver={this.createLine} onMouseOut={this.removeLine} >Geriatric Psychiatry</p></Link>
+        <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <Link to="/Anxiety" className="nav-link">{f}</Link>
+          <Link to="/Depression" className="nav-link">{g}</Link>
+          <Link to="/Sleep-disorders" className="nav-link">{h}</Link>
+          <Link to="/PTSD" className="nav-link">{i}</Link>
+          <Link to="/Geriatric-psychiatry" className="nav-link">{j}</Link>
         </div>
       </li>
 
-      <li class="nav-item">
-        <Link to="/Policies" class="nav-link slider"><p onMouseOver={this.createLine} onMouseOut={this.removeLine}>Policies</p></Link>
+      <li className="nav-item">
+        <Link to="/Policies" className="nav-link slider">{k}</Link>
       </li>
 
-      <li class="nav-item">
-        <Link to="/Contact-information" class="nav-link slider"><p onMouseOver={this.createLine} onMouseOut={this.removeLine}>Contact</p></Link>
+      <li className="nav-item">
+        <Link to="/Contact-information" className="nav-link slider">{l}</Link>
       </li>
 
     </ul>

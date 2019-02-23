@@ -365,6 +365,18 @@ font-size: 1.5em ;
   }
 }
 
+/* .huge {
+  font-size: 100px;
+} */
+/* REMOVE IPHONE ANIMATION */
+
+/* @supports (-webkit-overflow-scrolling: touch) { */
+  /* .nav-link {
+    pointer-events: none;
+  } */
+/*   
+} */
+
 /* MOBILE LARGE */
 
 @media (max-width: 426px) {
@@ -372,6 +384,12 @@ font-size: 1.5em ;
   .home-container {
     width: 90vw;
   }
+
+  .cmk_full img {
+    margin: 1em 0;
+    max-height: 8em;
+  }
+
   .sideways {
     display: initial;
   }

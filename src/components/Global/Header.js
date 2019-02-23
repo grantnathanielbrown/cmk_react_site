@@ -11,7 +11,7 @@ export default class Header extends Component {
             <div class="col-lg-10">
         <p class="title">CHRISTEN M. KERR M.D., P.C.</p>
         <p class="subtitle">PSYCHIATRIST AND THERAPIST</p>
-        <p class="specialties">30 Years in Practice | Psychotherapy | Medication Management | Geriatric Specialist</p>
+        <p class="specialties">30 Years in Practice | Adult and Geriatric Psychiatry | Psychotherapy | Medication Management </p>
             </div>
             <div class="col">
             </div>
