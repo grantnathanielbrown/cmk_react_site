@@ -100,8 +100,8 @@ export default class Navbar extends Component {
     let k;
     let l;
 
-    if (window.innerHeight > 500) {
-      console.log(window.innerHeight);
+    if (window.innerWidth > 415) {
+      console.log(window.innerWidth);
       console.log("it's not most phones");
       
         a = <p onMouseOver={this.createLine} onMouseOut={this.removeLine}>Home</p>
