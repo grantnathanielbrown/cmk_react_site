@@ -100,7 +100,7 @@ export default class Navbar extends Component {
     let k;
     let l;
 
-    if (window.innerHeight > 415) {
+    if (window.innerHeight > 500) {
       console.log(window.innerHeight);
       console.log("it's not most phones");
       
