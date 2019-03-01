@@ -7,8 +7,8 @@ export default class GeriatricPsychiatry extends Component {
     let geriatricSections = ['Anxiety', 'Depression', 'Sleep-disorders', 'PTSD', 'Geriatric-psychiatry']
     return (
       <Section SectionContainer="geriatric-container" 
-      SectionImage="geriatric-image"
-      // address background image
+      metaUrl="Geriatric-psychiatry" 
+      SectionImage="geriatric-image"      
       SectionContent="geriatric-content"      
       NavSections={geriatricSections}
       SectionBlurb="geriatric-blurb"
@@ -16,7 +16,7 @@ export default class GeriatricPsychiatry extends Component {
       SectionParagraph="
       The aging process is as unique as the human experience.
       Everyone will experience the last third of his or her life differently.
-      If you need help with aging gracefully, dealing with loss or medical problems,
+      If you need help with aging gracefully, dealing with loss, cognitive impairment, or medical problems,
       dealing with new or old psychiatric issues, or looking back over your life and taking an 
       inventory, I am happy to help.
       My interest and expertise in medical and psychological issues of aging go back to my training.

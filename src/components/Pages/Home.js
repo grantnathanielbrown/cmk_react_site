@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Helmet} from "react-helmet";
 
 import { Route, Link, Redirect, Switch } from 'react-router-dom';
 import Header from '../Global/Header';
@@ -9,8 +10,16 @@ import Bench from '../Images/serenity.jpeg';
 import Carousel from '../Global/Carousel';
 export default class Home extends Component {
   render() {
-    return (      
+    return (
+
 <div className="home-container">
+<Helmet>
+<meta charSet="utf-8" />
+
+<title>Christen's Homepage</title>
+<meta name="description" content="This page introduces the patient to Christen's psychiatric practice." />
+<link rel="canonical" href="http://christenkerrmd.com" />
+</Helmet>
     <Header></Header>
     <Carousel></Carousel>
     <div className="sideways">
@@ -45,7 +54,7 @@ export default class Home extends Component {
 
     <figure className="extra-images">
         <img src={Bench} alt='missing' />
-        <figcaption className="fig-bottom"><Link to="/Contact-information">Contact me.</Link></figcaption>
+        <figcaption className="fig-bottom"><Link to="/Contact-information">Make an appointment.</Link></figcaption>
     </figure>
     </div>  
 </div>    

@@ -1,18 +1,17 @@
 # CMK'S Website
 
-## TO DO
+# TO DO
 
-### MOBILE PRIORITIES
+## GOOGLE BUSINESS
+- write or edit description to be used in all fields
+- description for services
+- picture of office interior, cover photo?
 
-- links on mobile have to be clicked twice
-- some text off center?
+## SITE ITSELF
 
-
-
-### PRIORITY
-
-- cname
-- seo
+### PRIORITIES
+- add titles to all pages
+- robust.txt?
 
 ### SECONDARY
 - fadeout

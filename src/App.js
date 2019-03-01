@@ -3,7 +3,7 @@ import './App.css';
 
 // components
 import Navbar from './components/Global/Navbar'
-import Main from "../src/components/Global/Main"
+import Main from "./components/Global/Main"
 
 class App extends Component {
   render() {

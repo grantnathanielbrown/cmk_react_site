@@ -339,6 +339,9 @@ font-size: 1.5em ;
   font-size: 1em;
   padding: 2em;
 }
+.prefooter p {
+  font-size: .5em;
+}
 .footer {
   background-color: #403F3F;
   width: 100%;
@@ -379,7 +382,7 @@ font-size: 1.5em ;
 
 /* MOBILE LARGE */
 
-@media (max-width: 426px) {
+@media (max-width: 481px) {
   /* HOME */
   .home-container {
     width: 90vw;

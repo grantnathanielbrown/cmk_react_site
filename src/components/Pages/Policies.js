@@ -1,12 +1,18 @@
 import React, { Component } from 'react';
-
+import {Helmet} from "react-helmet";
 
 export default class Policies extends Component {
   render() {
     return (
 
       <div className="policies-container">
-      
+      <Helmet>
+      <meta charSet="utf-8" />
+
+      <title>Christen's Policies</title>
+      <meta name="description" content="This page describes Christen's treatments, fees, and cancellation policies." />
+      <link rel="canonical" href="http://christenkerrmd.com/#/policies" />
+      </Helmet>
       <h1 className="policy-header">Policies</h1>
 
       
@@ -33,7 +39,7 @@ export default class Policies extends Component {
 
       <div id="fees">
       <h1>Fees</h1>
-      I do not participate with any insurance companies. Payment should be made directly to me at the time of service. A statement will be provided for your convenience, which you may present to your insurance company for reimbursement. Some fees are listed below.
+      I do not participate with any insurance companies, and I have opted out of Medicare. Payment should be made directly to me at the time of service. I do accept credit cards. A statement will be provided for your convenience, which you may present to your insurance company for reimbursement. Some fees are listed below.
       <br>
       </br>
       Diagnostic evaluation: $450
@@ -60,7 +66,7 @@ export default class Policies extends Component {
       <div id="cancellation">
       <h1>Cancellation</h1>
     A fee of <span>$255</span> is charged for missed appointments unless they are canceled or rescheduled at least 24 hours prior.
-      Note: A diagnostic and treatment fees are subject to a 2% increase every January  
+      Fees are subject to a 2% increase every January. 
       
       </div>
 

@@ -1,9 +1,17 @@
 import React, { Component } from 'react'
-import MedicalThingy from '../Images/35459605-medical-symbol-caduceus-with-snakes-and-wings.jpg'
+import {Helmet} from "react-helmet";
+
 class About extends Component {
   render() {
     return (
     <div className="about-container">
+    <Helmet>
+        <meta charSet="utf-8" />
+
+        <title>About Christen</title>
+        <meta name="description" content="This page describes Christen's background and qualifications as a psychiatrist." />
+        <link rel="canonical" href="http://christenkerrmd.com/#/about" />
+    </Helmet>
         <div className="section-image about-background">
 
         </div>

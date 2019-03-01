@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
 import Bike from '../Images/bike.png';
 import Hike from '../Images/hike.png';
-import Island from '../Images/island.png';
+import Chess from '../Images/chess-3303829_960_720.jpg';
 import Window from '../Images/istockphoto-841246134-612x612.jpg';
 import DC from '../Images/8151987436_d05fa6aa07_b.jpg';
 import Skyline from '../Images/Washington-DC-skyline.jpg';
+import Sunset from '../Images/GettyImages_870316052.0.jpg';
 
 export default class Carousel extends Component {
   render() {
@@ -18,7 +19,7 @@ export default class Carousel extends Component {
       <img class="d-block w-100" src={Hike} alt="Second slide"/>
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src={Island} alt="Third slide"/>
+      <img class="d-block w-100" src={Chess} alt="Third slide"/>
     </div>
     <div class="carousel-item">
       <img class="d-block w-100" src={Window} alt="Fourth slide"/>
@@ -28,6 +29,9 @@ export default class Carousel extends Component {
     </div>
     <div class="carousel-item">
       <img class="d-block w-100" src={Skyline} alt="Sixth slide"/>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src={Sunset} alt="Seventh slide"/>
     </div>
   </div>
   <a class="carousel-control-prev" href="#homeCarousel" role="button" data-slide="prev">

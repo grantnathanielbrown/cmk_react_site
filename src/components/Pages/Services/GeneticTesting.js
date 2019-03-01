@@ -6,7 +6,8 @@ export default class GeneticTesting extends Component {
   render() {    
     let geneticSections = ['Psychotherapy', 'Medication-management', 'Genetic-testing' ]
     return (
-      <Section SectionContainer="genetic-container" 
+      <Section SectionContainer="genetic-container"
+      metaUrl="Genetic-testing" 
       SectionImage="genetic-image"
       // address background image
       SectionContent="genetic-content"      

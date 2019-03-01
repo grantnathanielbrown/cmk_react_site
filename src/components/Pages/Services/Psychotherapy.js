@@ -6,9 +6,9 @@ export default class Psychotherapy extends Component {
   render() {    
     let psychotherapySections = ['Psychotherapy', 'Medication-management', 'Genetic-testing' ]
     return (
-      <Section SectionContainer="psychotherapy-container" 
+      <Section SectionContainer="psychotherapy-container"
+      metaUrl="Psychotherapy"  
       SectionImage="psychotherapy-image"
-      // address background image
       SectionContent="psychotherapy-content"      
       NavSections={psychotherapySections}
       SectionBlurb="psychotherapy-blurb"

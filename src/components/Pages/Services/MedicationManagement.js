@@ -6,7 +6,8 @@ export default class MedicationManagement extends Component {
   render() {    
     let medicationSections = ['Psychotherapy', 'Medication-management', 'Genetic-testing' ]
     return (
-      <Section SectionContainer="medication-container" 
+      <Section SectionContainer="medication-container"
+      metaUrl="Medication-management"  
       SectionImage="medication-image"
       // address background image
       SectionContent="medication-content"      
