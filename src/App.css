@@ -32,13 +32,32 @@ main {
   flex-direction: row;
   margin: 1em 0;
 }
+.sale-button {
+  margin: 1em;
+  border-radius: .3em;
+  background-color: rgb(8, 8, 119);
+  transition: transform .5s;
+}
+.sale-button a {
+  color: white;
+}
 
+.sale-button a:visited {
+  text-decoration: none;
+}
+.sale-button a:hover {
+  text-decoration: none;
+  /* transition: transform */
+}
+.sale-button:hover {
+  transform: scale(1.2);
+}
 #homeCarousel {
   max-height: none;
 }
 
 .container {
-  margin: 1em auto;
+  margin: 1em auto 0 auto;
 }
 .title {
 color: #BF554C;
@@ -70,6 +89,7 @@ font-size: 1.5em ;
 
 .specialties {
   font-size: .9em;
+  margin-bottom: 0;
 }
 
 .extra-links {

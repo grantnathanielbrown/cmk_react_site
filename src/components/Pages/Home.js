@@ -3,7 +3,7 @@ import {Helmet} from "react-helmet";
 
 import { Route, Link, Redirect, Switch } from 'react-router-dom';
 import Header from '../Global/Header';
-import MapContainer from '../Global/MapContainer';
+
 import CMK from '../Images/ChristenKerr-245.JPG';
 import oldPeople from '../Images/hey.jpg';
 import Bench from '../Images/serenity.jpeg';
@@ -21,6 +21,7 @@ export default class Home extends Component {
 <link rel="canonical" href="http://christenkerrmd.com" />
 </Helmet>
     <Header></Header>
+    <button className="sale-button"><Link to="/Contact-information">MAKE AN APPOINTMENT</Link></button>
     <Carousel></Carousel>
     <div className="sideways">
 <figure className="cmk_full">
