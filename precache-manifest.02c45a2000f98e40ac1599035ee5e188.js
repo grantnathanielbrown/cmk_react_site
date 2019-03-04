@@ -4,16 +4,16 @@ self.__precacheManifest = [
     "url": "/static/media/8151987436_d05fa6aa07_b.0cafc74a.jpg"
   },
   {
-    "revision": "b89fb9a1f8dc0bf3e197",
-    "url": "/static/css/main.d2a816a2.chunk.css"
+    "revision": "9ad6c882f04ce31ecd9a",
+    "url": "/static/css/main.d15318cd.chunk.css"
   },
   {
-    "revision": "5775f712ea059548f4f7c9a8b010e22d",
-    "url": "/static/media/35459605-medical-symbol-caduceus-with-snakes-and-wings.5775f712.jpg"
+    "revision": "b485fee8b51edf581243e905dee4c181",
+    "url": "/static/media/depression-be.b485fee8.jpg"
   },
   {
-    "revision": "e8cfd68811a3c73cc049",
-    "url": "/static/js/1.e8cfd688.chunk.js"
+    "revision": "015ffb7f2049d75a5895",
+    "url": "/static/js/1.015ffb7f.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -40,20 +40,24 @@ self.__precacheManifest = [
     "url": "/static/media/hike.e5341e03.png"
   },
   {
-    "revision": "53ce7be8e306c0d65a428defecfc7a38",
-    "url": "/static/media/island.53ce7be8.png"
+    "revision": "01073395b28a80dc78d933636261f1aa",
+    "url": "/static/media/chess-3303829_960_720.01073395.jpg"
   },
   {
     "revision": "e249f1497f42eddf2fcd3dc6ffdfc6be",
     "url": "/static/media/istockphoto-841246134-612x612.e249f149.jpg"
   },
   {
-    "revision": "b89fb9a1f8dc0bf3e197",
-    "url": "/static/js/main.b89fb9a1.chunk.js"
+    "revision": "9ad6c882f04ce31ecd9a",
+    "url": "/static/js/main.9ad6c882.chunk.js"
   },
   {
     "revision": "534640fde0cbb6541359ebfdaffb6714",
     "url": "/static/media/Washington-DC-skyline.534640fd.jpg"
+  },
+  {
+    "revision": "aad29a43d88a39bd33a4dd411961993d",
+    "url": "/static/media/GettyImages_870316052.0.aad29a43.jpg"
   },
   {
     "revision": "f331ce1c350ddc2ad37e3bf0a267d6a9",
@@ -87,15 +91,11 @@ self.__precacheManifest = [
     "url": "/static/media/Hugo bend (front view).a9f30644.JPG"
   },
   {
-    "revision": "b485fee8b51edf581243e905dee4c181",
-    "url": "/static/media/depression-be.b485fee8.jpg"
+    "revision": "015ffb7f2049d75a5895",
+    "url": "/static/css/1.cd94149f.chunk.css"
   },
   {
-    "revision": "e8cfd68811a3c73cc049",
-    "url": "/static/css/1.1b2cc9b3.chunk.css"
-  },
-  {
-    "revision": "e75c1bb4a1835b5fd03f54250f9bd326",
+    "revision": "d3896c95d80ff9845af7655698e62422",
     "url": "/index.html"
   }
 ];
