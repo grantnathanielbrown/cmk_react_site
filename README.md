@@ -8,3 +8,10 @@
 - fix drop down cursor range
 - fix carousel not behaving one hundred percent of the time
 - smooth animation on nav dropdown
+
+### WHAT I LEARNED
+
+- a ton of planning is necessary, impossible to do too much planning
+- focus on mvp before features
+- commit often
+- 

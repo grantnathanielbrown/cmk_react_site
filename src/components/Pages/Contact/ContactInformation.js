@@ -16,7 +16,8 @@ export default class ContactInformation extends Component {
         <h2>1307 Dolley Madison Blvd</h2>
         <h2>Suite 3C</h2>
         <h2>McLean, VA 22101</h2>
-        <h2>For an appointment, call <a href="tel:703-734-7961">703-734-7961</a> and leave a message. I will return your call with available appointment times.</h2>
+        <h2>New patients please call for an appointment at: <a href="tel:571-835-6474">571-835-6474</a></h2>
+        <h2>Office: <a href="703-734-7961">703-734-7961</a></h2>
         <h2>Fax: <a href="tel:703-734-7962">703-734-7962</a></h2>
         <MapContainer></MapContainer>
       </div>
