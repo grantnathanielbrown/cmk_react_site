@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-
+// test comment
 // components
 import Navbar from './components/Global/Navbar'
 import Main from "./components/Global/Main"
