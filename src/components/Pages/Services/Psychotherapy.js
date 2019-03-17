@@ -15,14 +15,17 @@ export default class Psychotherapy extends Component {
       SectionTitle="Psychotherapy"
       SectionParagraph="Psychotherapies vary in their approaches, but all involve talking about feelings,
       thoughts, and behaviors in ways that lead to meaningful constructive change. 
-      The most extensively studied psychotherapy is CBT. 
+      The most extensively studied psychotherapy is cognitive behavioral therapy. 
       This technique focuses on thoughts that cause distress, and ways to manage them,
-      as well as the feelings and behaviors they influence. 
-      Other therapies include psychodynamic therapy for relationship issues,
-      help with bereavement for losses, cognitive re-programming for PTSD,
-      motivational interviewing for substance use issues, 
-      exposure and response prevention for OCD, and expressive therapy for other issues
-      such as life transitions, aging issues and the like.￼"
+      as well as the feelings and behaviors they influence.
+      I provide CBT, psychodynamic therapy for relationship issues, cognitive reprogramming for PTSD
+      , motivational interviewing for substance use issues, exposure and
+      response prevention for OCD, help with bereavement for losses and 
+      expressive therapy for other issues such as like transitions, 
+      aging issues and the like.
+
+      "
+      
       ></Section>
     )
   }

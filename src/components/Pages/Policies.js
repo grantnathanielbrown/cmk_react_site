@@ -34,7 +34,7 @@ export default class Policies extends Component {
 
       <div id="termination">
       <h1>Termination</h1>      
-      Ending therapy is an integral part of treatment. It should be considered carefully and discussed as one’s goals are achieved, in order to obtain maximum benefit from the termination process. In rare cases, it may be necessary to terminate for non-payment of fees.
+      Ending therapy is an integral part of treatment. It should be considered carefully and discussed as one’s goals are achieved, in order to obtain maximum benefit from the termination process.
       </div>
 
       <div id="fees">
@@ -61,13 +61,6 @@ export default class Policies extends Component {
       </br>
 
       My office is in a shared space. I am a solo practioner and not part of a group.
-      </div>
-
-      <div id="cancellation">
-      <h1>Cancellation</h1>
-    A fee of <span>$255</span> is charged for missed appointments unless they are canceled or rescheduled at least 24 hours prior.
-      Fees are subject to a 2% increase every January. 
-      
       </div>
 
 

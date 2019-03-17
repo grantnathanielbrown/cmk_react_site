@@ -18,7 +18,14 @@ class About extends Component {
       <div className="about">
         <h1>About Me</h1>
         
-        <p>My medical training was completed at Indiana University School of Medicine between 1980 and 1984. From there, I went on to an internship and residency as well as a geriatric fellowship at Georgetown University hospital between 1984 and 1989. I stayed on as an assistant clinical professor at the Department of Psychiatry from 1989 through 1993, and as an adjunct clinical professor from 1993 to 2000.
+        <p>My medical training was completed at Indiana University School 
+          of Medicine between 1980 and 1984. From there, I went on to an 
+          internship and residency as well as a geriatric fellowship at
+           Georgetown University hospital between 1984 and 1989. I stayed 
+           on as an assistant clinical professor at the Department of Psychiatry 
+           from 1989 through 1993, and as an adjunct clinical professor 
+           from 1993 to 2000. From 1989 through the present, I have had extensive
+           experience in private practice.
           
 
         </p>

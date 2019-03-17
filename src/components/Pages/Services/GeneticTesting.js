@@ -14,9 +14,11 @@ export default class GeneticTesting extends Component {
       NavSections={geneticSections}
       SectionBlurb="genetic-blurb"
       SectionTitle="Genetic Testing"
-      SectionParagraph="Genes influence the way a person's body responds to specific medications. 
-      Testing is available that analyzes a patient's genetic content and provides individualized information.
-      DNA is collected with a simple cheek swab and results provide guidance for medication selection. 
+      SectionParagraph="Your genes influence the way your body responds 
+      to specific medications. Testing is available that analyzes your 
+      genetic content and provides individualized information.
+      A sample of your DNA can be collected with a simple cheek swab and 
+      results provide guidance for medication selection. 
       When combined with a thorough history and clinical evaluation, genetic testing 
       can yield valuable guidance."
       ></Section>

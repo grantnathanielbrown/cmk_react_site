@@ -14,8 +14,12 @@ export default class SleepDisorders extends Component {
       SectionBlurb="sleep-blurb"
       SectionTitle="Sleep Disorders"
       SectionParagraph="
-      The most important part of treating sleep problems is a complete evaluation. Insomnia is often a symptom of other problems such as Depression, Bipolar disorder, Generalized Anxiety Disorder, PTSD, Schizophrenia or Substance Use. Primary sleep disorders including Parasomnia, Obstructive Sleep Apnea, Restless Leg Syndrome, and Circadian Rhythm Sleep / Wake Disorder should be considered.
-      Once I have a thorough understanding of what is causing your insomnia, there are many appropriate and effective treatments from sleep hygiene, to CBT, to a host of medications to ensure a good night's sleep, which, of course, we all need!"
+      The most important part of treating sleep problems is a complete 
+      evaluation. Insomnia is often a symptom of other problems.
+      Once I have a thorough understanding of what is causing your insomnia, 
+      there are many appropriate and effective treatments from 
+      sleep hygiene, to CBT, to a host of medications to ensure a good 
+      night's sleep, which, of course, we all need!"
       ></Section>
     )
   }

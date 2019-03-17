@@ -30,16 +30,16 @@ export default class Home extends Component {
 </figure>
       
     {/* <p className="description"> I call upon many years of experience plus the latest in cutting edge science to design unique treatments for each patient.   */}
-    A thorough understanding of each individual allows for treatment including psychotherapy with or without medication management, as needed. 
-    Therapy is delivered in an environment of confidentiality and support.
+    I strive for a thorough understanding of each individual.
+     My treatment includes psychotherapy with or without medication management, delivered
+    in an environment of confidentiality and support. 
     
     <br>
     </br>
     <br>
     </br>
     
-    You are invited to explore below to learn about my expertise and practice.
-    I look forward to having an opportunity to work with you.
+    Please explore below to learn more about my expertise and practice.
     
     {/* </p> */}
     

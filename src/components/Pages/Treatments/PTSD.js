@@ -14,8 +14,14 @@ export default class PTSD extends Component {
       SectionBlurb="PTSD-blurb"
       SectionTitle="Post Traumatic Stress Disorder"
       SectionParagraph="
-      When trauma strikes, it can be devastating. There are many types of trauma. For some, we never expect it. For the other brave individuals who put themselves in harm's way, you do not expect the profound impact. Sometimes there are lasting effects such as sleep disturbance, nightmares, flashbacks, irritability, insomnia, loss of interest in activities, estrangement from others, hypervigilance, and avoidance of things that remind you of the trauma.
-      You do not have to suffer for your service or misfortune. A specific form of CBT called cognitive reprogramming is indicated for PTSD. The trauma is worked through and detoxified very slowly. Several different medications are also available and are sometimes used to facilitate the therapy."
+      When trauma strikes, it can be devastating. There are many types
+      of trauma. For some, we never expect it. For the other brave 
+      individuals who put yourselves in harm's way, you do not expect 
+      the profound impact. You do not have to suffer for your service or
+      misfortune. A specific form of CBT called cognitive reprogramming 
+      is very helpful for PTSD. Together we work through the trauma and detoxify it
+      very slowly. I offer several different medications to assist
+      the working through and make it comfortable, if needed"
       ></Section>
     )
   }
