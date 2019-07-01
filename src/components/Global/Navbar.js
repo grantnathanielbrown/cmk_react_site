@@ -1,46 +1,15 @@
 import React, { Component } from 'react'
 import { Route, Link, Redirect, Switch } from 'react-router-dom';
 
-
-
-
 export default class Navbar extends Component {
   constructor(props) {
     super(props)
     this.dropdownSlide = this.dropdownSlide.bind(this);
     this.createLine = this.createLine.bind(this);
     this.removeLine = this.removeLine.bind(this);
-    // 
-    // this.addAnimation = this.addAnimation.bind(this);
+
   }
-  // componentDidMount() {
-  //   this.addAnimation();
-  //   this.cancelAnimation();
-  // }
 
-  // addAnimation() {
-  //   let x = document.getElementsByClassName("redline");
-  //   console.log(x);
-  //   for (let i = 0; i < x.length ; i++) {
-  //     console.log(x[i]);
-  //     x[i].classList.add("huge");
-  //     x[i].addEventListener("onMouseOver", this.createLine);
-  //     x[i].addEventListener("onMouseOut", this.removeLine);
-  //     console.log(x[i]);
-  //   }
-    
-  // }
-
-  // cancelAnimation() {
-  //   let x = document.getElementsByClassName("redline");
-  //   console.log(x);
-  //   for (let i = 0; i < x.length ; i++) {
-  //     console.log(x[i]);
-  //     x[i].removeEventListener("onMouseOver", this.createLine);
-  //     console.log(x[i]);
-  //   }
-    
-  // }
   createLine(e) {
 
     // 1. onHover event associated with nav items
@@ -49,7 +18,7 @@ export default class Navbar extends Component {
     // 4. append hr to hover item
     // 5. mouse away delete hr separatefunction 
     var x = document.getElementsByClassName(".dropdown-toggle");
-    // let fakeParagraph = document.createElement("")
+    
 
     console.log("line created");
     let targetedNav = e.target;
@@ -70,13 +39,9 @@ export default class Navbar extends Component {
     // 2. note list remove
     // 3.
     let targetedNav = e.target;
-    let p = targetedNav.childNodes[0];
-    // console.log(targetedNav.classList);
+    let p = targetedNav.childNodes[0];    
     console.log(p);
-    // if (targetedNav.classList.value.length > 1 ) {
-    //   targetedNav.removeChild(targetedNav.childNodes[0]);
-    //   console.log(targetedNav.childNodes[0]);
-    // }
+
     targetedNav.removeChild(targetedNav.childNodes[1]);
   }
 
@@ -86,7 +51,7 @@ export default class Navbar extends Component {
     var x = document.getElementsByClassName(".dropdown-toggle");
   }
   render() {
-    // LORD FORGIVE ME FOR WHAT I MUST DO
+    // VERY IMPORTANT TO FIX THIS MESSY CODE
     let a;
     let b;
     let c;
@@ -130,9 +95,6 @@ export default class Navbar extends Component {
       j = <p>Geriatric Psychiatry</p>
       k = <p>Policies</p> 
       l = <p>Contact</p>
-
-
-
     }
         return (
       <div>
