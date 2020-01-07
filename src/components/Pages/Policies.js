@@ -45,7 +45,7 @@ export default class Policies extends Component {
       Diagnostic evaluation: $450
       <br>
       </br>
-      45 minute follow-up visit: $255
+      45 minute follow-up visit: $260
       <br>
       </br>
       Completion of forms: $50
