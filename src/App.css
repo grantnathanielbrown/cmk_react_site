@@ -375,6 +375,20 @@ font-size: 1.5em ;
   padding: 2em;
 }
 
+/* COVID */
+.covid-container {
+  width: 75%;
+}
+
+.covid-content {
+  padding: .8em;  
+}
+.consent-text {
+  padding: 2em; 
+}
+.nyt {
+  font-size: .5em;
+}
 /* MOBILE SMALL */
 
 @media (max-width: 321px) {
