@@ -4,16 +4,16 @@ self.__precacheManifest = [
     "url": "/static/media/8151987436_d05fa6aa07_b.0cafc74a.jpg"
   },
   {
-    "revision": "8d6c72d77c954c1955c8",
-    "url": "/static/css/main.7f970c0b.chunk.css"
+    "revision": "5ab3f4611eba926d3dae",
+    "url": "/static/css/main.d355f716.chunk.css"
   },
   {
     "revision": "b485fee8b51edf581243e905dee4c181",
     "url": "/static/media/depression-be.b485fee8.jpg"
   },
   {
-    "revision": "015ffb7f2049d75a5895",
-    "url": "/static/js/1.015ffb7f.chunk.js"
+    "revision": "3387c93082a8b112faf0",
+    "url": "/static/js/1.3387c930.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -48,8 +48,8 @@ self.__precacheManifest = [
     "url": "/static/media/istockphoto-841246134-612x612.e249f149.jpg"
   },
   {
-    "revision": "8d6c72d77c954c1955c8",
-    "url": "/static/js/main.8d6c72d7.chunk.js"
+    "revision": "5ab3f4611eba926d3dae",
+    "url": "/static/js/main.5ab3f461.chunk.js"
   },
   {
     "revision": "534640fde0cbb6541359ebfdaffb6714",
@@ -91,11 +91,11 @@ self.__precacheManifest = [
     "url": "/static/media/Hugo bend (front view).a9f30644.JPG"
   },
   {
-    "revision": "015ffb7f2049d75a5895",
-    "url": "/static/css/1.cd94149f.chunk.css"
+    "revision": "3387c93082a8b112faf0",
+    "url": "/static/css/1.c30595a2.chunk.css"
   },
   {
-    "revision": "cb10609a65b7490452d1380b733ac289",
+    "revision": "04b983e40ad6f40d859fa358630cc4c3",
     "url": "/index.html"
   }
 ];
