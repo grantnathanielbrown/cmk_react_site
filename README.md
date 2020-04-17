@@ -2,15 +2,15 @@
 
 # TO DO
 
-### PRIORITIES
+### HIGH PRIORITY
 
-- fadeout
+- fadeout on main
+- think about reformatting text for the website
+
+### LOW PRIORITY
+
 - fix drop down cursor range
 - fix carousel not behaving one hundred percent of the time
+- add helmet on new pages
+- styling on resources, links
 
-### WHAT I LEARNED
-
-- a ton of planning is necessary, impossible to do too much planning
-- focus on mvp before features
-- commit often
-- 

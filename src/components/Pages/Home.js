@@ -22,6 +22,10 @@ export default class Home extends Component {
 </Helmet>
     <Header></Header>
     <button className="sale-button"><Link to="/Contact-information">MAKE AN APPOINTMENT</Link></button>
+    <br/>
+    <Link to="/covid19update" >COVID-19 Update</Link>
+    <br/>
+    <br/>  
     <Carousel></Carousel>
     <div className="sideways">
 <figure className="cmk_full">

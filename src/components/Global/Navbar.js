@@ -1,48 +1,10 @@
 import React, { Component } from 'react'
 import { Route, Link, Redirect, Switch } from 'react-router-dom';
-
+import UnderlinedLinkText from './UnderlinedLinkText'; 
 export default class Navbar extends Component {
   constructor(props) {
     super(props)
     this.dropdownSlide = this.dropdownSlide.bind(this);
-    this.createLine = this.createLine.bind(this);
-    this.removeLine = this.removeLine.bind(this);
-
-  }
-
-  createLine(e) {
-
-    // 1. onHover event associated with nav items
-    // 2. get class from hover items for example first – nav
-    // 3. create hr
-    // 4. append hr to hover item
-    // 5. mouse away delete hr separatefunction 
-    var x = document.getElementsByClassName(".dropdown-toggle");
-    
-
-    console.log("line created");
-    let targetedNav = e.target;
-    console.log(targetedNav.innerHTML.length);
-    if (targetedNav.innerHTML.length > 0 ) {
-      let underline = document.createElement("hr");
-      underline.classList.add("slide-in");
-      targetedNav.appendChild(underline);
-
-    }
-    
-
-  }
-
-  removeLine(e) {
-    // on mouse away
-    // 1. get parent element of hr
-    // 2. note list remove
-    // 3.
-    let targetedNav = e.target;
-    let p = targetedNav.childNodes[0];    
-    console.log(p);
-
-    targetedNav.removeChild(targetedNav.childNodes[1]);
   }
 
   dropdownSlide(e) {
@@ -51,50 +13,11 @@ export default class Navbar extends Component {
     var x = document.getElementsByClassName(".dropdown-toggle");
   }
   render() {
-    // VERY IMPORTANT TO FIX THIS MESSY CODE
-    let a;
-    let b;
-    let c;
-    let d;
-    let e;
-    let f;
-    let g;
-    let h;
-    let i;
-    let j;
-    let k;
-    let l;
-
+    let animationAllowed;
     if (window.innerWidth > 415) {
-      console.log(window.innerWidth);
-      console.log("it's not most phones");
-      
-        a = <p onMouseOver={this.createLine} onMouseOut={this.removeLine}>Home</p>
-        b = <p onMouseOver={this.createLine} onMouseOut={this.removeLine}>About</p>      
-        c = <p onMouseOver={this.createLine} onMouseOut={this.removeLine}>Psychotherapy</p>      
-        d = <p onMouseOver={this.createLine} onMouseOut={this.removeLine}>Medication Management</p>      
-        e = <p onMouseOver={this.createLine} onMouseOut={this.removeLine}>Genetic Testing</p>      
-        f = <p onMouseOver={this.createLine} onMouseOut={this.removeLine}>Anxiety</p>      
-        g = <p onMouseOver={this.createLine} onMouseOut={this.removeLine}>Depression</p>      
-        h = <p onMouseOver={this.createLine} onMouseOut={this.removeLine}>Sleep Disorders</p>      
-        i = <p onMouseOver={this.createLine} onMouseOut={this.removeLine}>PTSD</p>      
-        j = <p onMouseOver={this.createLine} onMouseOut={this.removeLine}>Geriatric Psychiatry</p>
-        k = <p onMouseOver={this.createLine} onMouseOut={this.removeLine}>Policies</p>      
-        l = <p onMouseOver={this.createLine} onMouseOut={this.removeLine}>Contact</p>            
-
+      animationAllowed = true;           
     } else {
-      a = <p>Home</p>
-      b = <p>About</p>
-      c = <p>Psychotherapy</p>
-      d = <p>Medication Management</p>
-      e = <p>Genetic Testing</p>
-      f = <p>Anxiety</p>
-      g = <p>Depression</p>
-      h = <p>Sleep Disorders</p>
-      i = <p>PTSD</p>
-      j = <p>Geriatric Psychiatry</p>
-      k = <p>Policies</p> 
-      l = <p>Contact</p>
+      animationAllowed = false;
     }
         return (
       <div>
@@ -108,12 +31,20 @@ export default class Navbar extends Component {
     <ul className="navbar-nav">
 
       <li  className="nav-item">
-        <Link  to="/" className="nav-link slider">{a}</Link>        
+               
+      </li>
+      <li  className="nav-item">
+        <Link  to="/" className="nav-link slider">
+          <UnderlinedLinkText animationAllowed={animationAllowed} linkName={"Home"}/>
+        </Link>        
       </li>
       
+    
 
       <li className="nav-item">
-        <Link to="/about" className="nav-link slider">{b}</Link>
+        <Link to="/about" className="nav-link slider">
+          <UnderlinedLinkText animationAllowed={animationAllowed} linkName={"About"}/>
+        </Link>
       </li>
 
       <li className="nav-item dropdown">
@@ -121,9 +52,15 @@ export default class Navbar extends Component {
           Services
         </a>
         <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <Link to="/Psychotherapy" className="nav-link">{c}</Link>          
-          <Link to="/Medication-management" className="nav-link">{d}</Link>    
-          <Link to="/Genetic-testing" className="nav-link">{e}</Link>    
+          <Link to="/Psychotherapy" className="nav-link">
+            <UnderlinedLinkText animationAllowed={animationAllowed} linkName={"Psychotherapy"}/>
+          </Link>          
+          <Link to="/Medication-management" className="nav-link">
+            <UnderlinedLinkText animationAllowed={animationAllowed} linkName={"Medication Management"}/>
+          </Link>    
+          <Link to="/Genetic-testing" className="nav-link">
+            <UnderlinedLinkText animationAllowed={animationAllowed} linkName={"Genetic Testing"}/>
+          </Link>    
         </div>
       </li>
       
@@ -132,21 +69,42 @@ export default class Navbar extends Component {
           What I Treat
         </a>
         <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <Link to="/Anxiety" className="nav-link">{f}</Link>
-          <Link to="/Depression" className="nav-link">{g}</Link>
-          <Link to="/Sleep-disorders" className="nav-link">{h}</Link>
-          <Link to="/PTSD" className="nav-link">{i}</Link>
-          <Link to="/Geriatric-psychiatry" className="nav-link">{j}</Link>
+          <Link to="/Anxiety" className="nav-link">
+            <UnderlinedLinkText animationAllowed={animationAllowed} linkName={"Anxiety"}/>
+          </Link>
+          <Link to="/Depression" className="nav-link">
+            <UnderlinedLinkText animationAllowed={animationAllowed} linkName={"Depression"}/>
+          </Link>
+          <Link to="/Sleep-disorders" className="nav-link">
+            <UnderlinedLinkText animationAllowed={animationAllowed} linkName={"Sleep Disorders"}/>
+          </Link>
+          <Link to="/PTSD" className="nav-link">
+            <UnderlinedLinkText animationAllowed={animationAllowed} linkName={"PTSD"}/>
+          </Link>
+          <Link to="/Geriatric-psychiatry" className="nav-link">
+            <UnderlinedLinkText animationAllowed={animationAllowed} linkName={"Geriatric Psychiatry"}/>
+          </Link>
         </div>
       </li>
 
       <li className="nav-item">
-        <Link to="/Policies" className="nav-link slider">{k}</Link>
+        <Link to="/Policies" className="nav-link slider">
+          <UnderlinedLinkText animationAllowed={animationAllowed} linkName={"Policies"}/>
+        </Link>
       </li>
 
       <li className="nav-item">
-        <Link to="/Contact-information" className="nav-link slider">{l}</Link>
+        <Link to="/Resources" className="nav-link slider">
+          <UnderlinedLinkText animationAllowed={animationAllowed} linkName={"Resources"}/>
+        </Link>
       </li>
+
+      <li className="nav-item">
+        <Link to="/Contact-information" className="nav-link slider">
+          <UnderlinedLinkText animationAllowed={animationAllowed} linkName={"Contact Information"}/>
+        </Link>
+      </li>
+
 
     </ul>
   </div>

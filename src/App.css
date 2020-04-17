@@ -375,6 +375,39 @@ font-size: 1.5em ;
   padding: 2em;
 }
 
+/* RESOURCES */
+.document-grid {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 60%;
+}
+
+.generated-document {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 10px;
+    height: 8em;
+    width: 8em;
+    border: solid .2em #444140;
+    margin: .5em;      
+}
+
+.tired {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+}
+
+.generated-document img {
+  height: 3em;
+  width: auto;
+}
+
+.generated-document a {
+  text-decoration: none;
+}
 /* COVID */
 .covid-container {
   width: 75%;

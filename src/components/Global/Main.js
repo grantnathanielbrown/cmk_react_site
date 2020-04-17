@@ -17,6 +17,9 @@ import GeriatricPsychiatry from '../Pages/Treatments/GeriatricPsychiatry';
 import Policies from '../Pages/Policies';
 
 import ContactInformation from '../Pages/Contact/ContactInformation';
+
+import Resources from '../Pages/Resources';
+
 import Covid from './Covid';
 
 
@@ -42,7 +45,12 @@ const Main = () => (
           <Route exact path="/Policies" component={Policies}/>
 
           <Route exact path="/Contact-information" component={ContactInformation}/>
-          <Route exact path="/covid19update" component={Covid} />        
+
+          <Route exact path="/Resources" component={Resources}/>
+
+          <Route exact path="/covid19update" component={Covid} />
+
+
         </Switch>
       </HashRouter>
     </main>
