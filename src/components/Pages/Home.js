@@ -33,7 +33,7 @@ export default class Home extends Component {
     <figcaption>Christen M. Kerr</figcaption>
 </figure>
       
-    {/* <p className="description"> I call upon many years of experience plus the latest in cutting edge science to design unique treatments for each patient.   */}
+    
     I strive for a thorough understanding of each individual.
      My treatment includes psychotherapy with or without medication management, delivered
     in an environment of confidentiality and support. 
@@ -45,7 +45,7 @@ export default class Home extends Component {
     
     Please explore below to learn more about my expertise and practice.
     
-    {/* </p> */}
+    
     
     </div>
 

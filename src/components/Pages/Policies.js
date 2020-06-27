@@ -39,7 +39,7 @@ export default class Policies extends Component {
 
       <div id="fees">
       <h1>Fees</h1>
-      I do not participate with any insurance companies, and I have opted out of Medicare. Payment should be made directly to me at the time of service. I do accept credit cards. A statement will be provided for your convenience, which you may present to your insurance company for reimbursement. Some fees are listed below.
+      I do not participate with any insurance companies, and I have opted out of Medicare. Payment should be made directly to me at the time of service. I do accept credit cards or Venmo. A statement will be provided for your convenience, which you may present to your insurance company for reimbursement. Some fees are listed below.
       <br>
       </br>
       Diagnostic evaluation: $450

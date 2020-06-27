@@ -422,6 +422,10 @@ font-size: 1.5em ;
 .nyt {
   font-size: .5em;
 }
+
+.bold-span {
+  font-weight: bold;
+}
 /* MOBILE SMALL */
 
 @media (max-width: 321px) {
