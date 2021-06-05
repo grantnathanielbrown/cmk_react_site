@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { HashRouter, Route, Switch} from 'react-router-dom';
 import Home from '../Pages/Home';
 import About  from '../Pages/About';

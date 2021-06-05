@@ -9,6 +9,7 @@
 
 ### LOW PRIORITY
 
+- Get rid of redundant hashRouter component?
 - fix drop down cursor range
 - fix carousel not behaving one hundred percent of the time
 - add helmet on new pages

@@ -4,14 +4,14 @@ export default class Resources extends Component {
     render() {
         let documentTitles = ["Authorization", "Beck Depression Inventory", "Beck Anxiety Inventory",
         "PTSD Checklist", "Mood Disorder Questionnaire", 
-        "Young Mania", "Adult ADHD", "MAST", "Test Your Thinking", 
+        "Young Mania", "Adult ADHD", "MAST", "MOCA", "Test Your Thinking", 
         "Thought Record", "Thinking Errors"];
         
         let documents = documentTitles.map( (title, key) => {
             let path = `Documents/${title}.pdf`;
             return (
                 
-                <div className="generated-document">
+                <div key={key} className="generated-document">
 
                     <a className="tired" href={path} download>                        
                         <h6>{title}</h6>

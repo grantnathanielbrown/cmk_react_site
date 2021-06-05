@@ -40,15 +40,18 @@ export default class Policies extends Component {
       <div id="fees">
       <h1>Fees</h1>
       I do not participate with any insurance companies, and I have opted out of Medicare. Payment should be made directly to me at the time of service. I do accept credit cards or Venmo. A statement will be provided for your convenience, which you may present to your insurance company for reimbursement. Some fees are listed below.
-      <br>
-      </br>
-      Diagnostic evaluation: $450
-      <br>
-      </br>
-      45 minute follow-up visit: $260
-      <br>
-      </br>
+      <br></br>
+      <br></br>
+      Diagnostic evaluation: $500
+      <br></br>
+      <br></br>
+      45 minute follow-up visit: $270
+      <br></br>
+      <br></br>
       Completion of forms: $50
+      <br></br>
+      <br></br>
+      A fee of $270 is charged for missed appointments unless they’re canceled or rescheduled at least 24 hours prior. Fees are subject to a 2% increase every January.
       </div>
 
       <div id="confidentiality">
@@ -60,7 +63,7 @@ export default class Policies extends Component {
       <br>
       </br>
 
-      My office is in a shared space. I am a solo practioner and not part of a group.
+      My office is in a shared space. I am a solo practitioner and not part of a group.
       </div>
 
 
