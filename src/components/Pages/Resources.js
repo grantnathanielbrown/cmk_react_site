@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import documentIcon from '/Users/grant/Desktop/cmk_react_site/src/components/Images/documenticon.png';
 export default class Resources extends Component {
     render() {
-        let documentTitles = ["Authorization", "Beck Depression Inventory", "Beck Anxiety Inventory",
-        "PTSD Checklist", "Mood Disorder Questionnaire", 
-        "Young Mania", "Adult ADHD", "MAST", "MOCA", "Test Your Thinking", 
-        "Thought Record", "Thinking Errors"];
+        let documentTitles = ["Adult ADHD", "AUDIT", "Authorization", "Beck Anxiety Inventory", "Beck Depression Inventory", "Epworth Sleepiness Scale", "Geriatric Depression Scale", "MOCA", 
+        "Mood Disorder Questionnaire", 
+        "PTSD Checklist", "Test Your Thinking", 
+        "Thinking Errors", "Thought Record",  "YBOC", "Young Mania"];
         
         let documents = documentTitles.map( (title, key) => {
             let path = `Documents/${title}.pdf`;

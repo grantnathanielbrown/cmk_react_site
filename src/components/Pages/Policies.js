@@ -19,9 +19,14 @@ export default class Policies extends Component {
       <div id="treatment">
       <h1>Treatment</h1>
       I believe treatment proceeds best during regularly scheduled appointments in the consistent 
-      and private setting of my office. I provide individual therapy and medication management. 
+      and private setting of my office, or via video conference. I provide individual therapy and medication management. 
       Because of my extensive psychotherapy training, I do not provide medication management for 
-      patients in therapy with other providers. All work is done on an outpatient basis. 
+      patients in therapy with other providers. Please let me know how you would like to be addressed and what pronouns you would prefer. 
+      <br>
+      </br>
+      <br>
+      </br>
+      All work is done on an outpatient basis. 
       If inpatient treatment is needed, I am available to facilitate a transfer to another provider 
       in a hospital setting. 
       
@@ -39,7 +44,7 @@ export default class Policies extends Component {
 
       <div id="fees">
       <h1>Fees</h1>
-      I do not participate with any insurance companies, and I have opted out of Medicare. Payment should be made directly to me at the time of service. I do accept credit cards or Venmo. A statement will be provided for your convenience, which you may present to your insurance company for reimbursement. Some fees are listed below.
+      I do not participate with any insurance companies, and I have opted out of Medicare. Payment should be made directly to me at the time of service. I accept credit cards. A statement will be provided for your convenience, which you may present to your insurance company for reimbursement. Some fees are listed below.
       <br></br>
       <br></br>
       Diagnostic evaluation: $500

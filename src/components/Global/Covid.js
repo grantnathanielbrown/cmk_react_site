@@ -36,7 +36,7 @@ export default class Covid extends Component {
                             You will not be charged a late cancellation fee if you are unable to come to your appointment for these reasons.
                             
                             <br/><br/>
-                            4. Face coverings are not required, since only vaccinated patients will be treated in the office. Please practice social distancing of 6 feet from other patients if they are in the waiting room.  
+                            4. In compliance with CDC guidelines, please wear face coverings when you are in the building including in the foyer, elevator, waiting room, and in my office for appointments. Masks are available if you need one. Please practice social distancing of 6 feet from other patients if they are in the waiting room.  
                             <br/><br/>
                             5. If you have tested positive for the coronavirus, I may be required to notify local health authorities that you have been in the office.
                             If I have to report this, I will only provide the minimum information necessary 
@@ -89,7 +89,7 @@ export default class Covid extends Component {
                         <br/><br/>
                         If you would like for me to collaborate with your primary care physician or other specialists or caregivers, please notify me and print out an authorization for release of information under the policies link on this website and return it to me.
                         <br/><br/>
-                        I do not participate with any insurance companies. Payment should be made directly to me at time of service by mailed check, credit card, or Venmo.
+                        I do not participate with any insurance companies. Payment should be made directly to me at time of service by mailed check or credit card,
                         The statement will be provided to you by mail. You may present that to your insurance company for reimbursement. Some fees are listed below:
                         <br/><br/>
                         Diagnostic evaluation: $500
