@@ -1,7 +1,7 @@
 {
   "main.css": "/static/css/main.4c28879b.chunk.css",
-  "main.js": "/static/js/main.be86fb9b.chunk.js",
-  "main.js.map": "/static/js/main.be86fb9b.chunk.js.map",
+  "main.js": "/static/js/main.b8057e0a.chunk.js",
+  "main.js.map": "/static/js/main.b8057e0a.chunk.js.map",
   "static/css/1.c30595a2.chunk.css": "/static/css/1.c30595a2.chunk.css",
   "static/js/1.0bf56b3e.chunk.js": "/static/js/1.0bf56b3e.chunk.js",
   "static/js/1.0bf56b3e.chunk.js.map": "/static/js/1.0bf56b3e.chunk.js.map",
@@ -18,9 +18,9 @@
   "static/media/Washington-DC-skyline.jpg": "/static/media/Washington-DC-skyline.534640fd.jpg",
   "static/media/GettyImages_870316052.0.jpg": "/static/media/GettyImages_870316052.0.aad29a43.jpg",
   "static/media/App.css": "/static/media/depression-be.b485fee8.jpg",
-  "static/css/1.c30595a2.chunk.css.map": "/static/css/1.c30595a2.chunk.css.map",
   "static/css/main.4c28879b.chunk.css.map": "/static/css/main.4c28879b.chunk.css.map",
+  "static/css/1.c30595a2.chunk.css.map": "/static/css/1.c30595a2.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.e8c1a884a6ec911f338a0e8346c79c8f.js": "/precache-manifest.e8c1a884a6ec911f338a0e8346c79c8f.js",
+  "precache-manifest.942711a35687d3fd96d59cd1161358b6.js": "/precache-manifest.942711a35687d3fd96d59cd1161358b6.js",
   "service-worker.js": "/service-worker.js"
 }
