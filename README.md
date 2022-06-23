@@ -1,5 +1,9 @@
 # CMK'S Website
 
+## FOR OLD MAN GRANT
+
+just run NPM run deploy, then stage files and commit.
+
 # TO DO
 
 ### HIGH PRIORITY

@@ -47,16 +47,16 @@ export default class Policies extends Component {
       I do not participate with any insurance companies, and I have opted out of Medicare. Payment should be made directly to me at the time of service. I accept credit cards. A statement will be provided for your convenience, which you may present to your insurance company for reimbursement. Some fees are listed below.
       <br></br>
       <br></br>
-      Diagnostic evaluation: $500
+      Diagnostic evaluation: $550
       <br></br>
       <br></br>
-      45 minute follow-up visit: $270
+      45 minute follow-up visit: $275
       <br></br>
       <br></br>
       Completion of forms: $50
       <br></br>
       <br></br>
-      A fee of $270 is charged for missed appointments unless they’re canceled or rescheduled at least 24 hours prior. Fees are subject to a 2% increase every January.
+      A fee of $275 is charged for missed appointments unless they’re canceled or rescheduled at least 24 hours prior. Fees are subject to a 5% increase every January.
       </div>
 
       <div id="confidentiality">
