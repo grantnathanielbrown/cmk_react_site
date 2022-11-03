@@ -36,13 +36,13 @@ export default class Covid extends Component {
                             You will not be charged a late cancellation fee if you are unable to come to your appointment for these reasons.
                             
                             <br/><br/>
-                            4. In compliance with CDC guidelines, please wear face coverings when you are in the building including in the foyer, elevator, waiting room, and in my office for appointments. Masks are available if you need one. Please practice social distancing of 6 feet from other patients if they are in the waiting room.  
+                            4. In compliance with CDC guidelines for healthcare settings, use of masks is optional. A mask is available if you need one. Please practice social distancing of 6 feet from other patients if they are in the waiting room.
                             <br/><br/>
                             5. If you have tested positive for the coronavirus, I may be required to notify local health authorities that you have been in the office.
                             If I have to report this, I will only provide the minimum information necessary 
-                            for their data collection and will not go into any details about the reason(s) for our visits.  
+                            for their data collection and will not go into any details about the reason(s) for our visits.
                             <br/><br/>
-                            Thank you for your attention to these guidelines.  Your safety is my highest priority.  Christen Kerr MD, PC
+                            Thank you for your attention to these guidelines. Your safety is my highest priority. Christen Kerr MD, PC
 
 
                         </div>
@@ -89,16 +89,16 @@ export default class Covid extends Component {
                         <br/><br/>
                         If you would like for me to collaborate with your primary care physician or other specialists or caregivers, please notify me and print out an authorization for release of information under the policies link on this website and return it to me.
                         <br/><br/>
-                        I do not participate with any insurance companies. Payment should be made directly to me at time of service by mailed check or credit card,
+                        I do not participate with any insurance companies. Payment should be made directly to me at time of service by mailed check or credit card. There is a 5% surcharge for credit card payments.
                         The statement will be provided to you by mail. You may present that to your insurance company for reimbursement. Some fees are listed below:
                         <br/><br/>
-                        Diagnostic evaluation: $500
+                        Diagnostic evaluation: $600
                         <br/><br/>
-                        45 minute follow-up visit: $270
+                        45 minute follow-up visit: $300
                         <br/><br/>
-                        Completion of forms: $50
+                        Completion of forms: $75
                         <br/><br/>
-                        A fee of $270 is charged for missed appointments unless they’re canceled or rescheduled at least 24 hours prior. Fees are subject to a 2% increase every January.
+                        A fee of $300 is charged for missed appointments unless they’re canceled or rescheduled at least 24 hours prior. Fees are subject to a 8% increase every January.
                         <br/><br/>
                         If you feel that treatment outside the office is not meeting your needs or if I feel that your condition is not appropriate for this mode of treatment, a referral to another practitioner can be made.
                         </div>

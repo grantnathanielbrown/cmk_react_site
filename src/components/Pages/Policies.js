@@ -44,19 +44,27 @@ export default class Policies extends Component {
 
       <div id="fees">
       <h1>Fees</h1>
-      I do not participate with any insurance companies, and I have opted out of Medicare. Payment should be made directly to me at the time of service. I accept credit cards. A statement will be provided for your convenience, which you may present to your insurance company for reimbursement. Some fees are listed below.
+      I do not participate with any insurance companies, and I have opted out of Medicare. Payment should be made directly to me at the time of service. I accept credit cards with an additional 5% surcharge. A statement will be provided for your convenience, which you may present to your insurance company for reimbursement. A good faith estimate of the cost of your treatment is as follows:
       <br></br>
       <br></br>
-      Diagnostic evaluation: $550
+      Diagnostic evaluation <b>90872</b>: $600
       <br></br>
       <br></br>
-      45 minute follow-up visit: $275
+      45 minute follow-up visits are billed as follows:
       <br></br>
       <br></br>
-      Completion of forms: $50
+      Individual Therapy <b>90834</b>: $300
+      <br></br>
+      Medication Evaluation and Management <b>99213</b>: $150 and Individual Psychotherapy with Medication Management <b>90836</b>: $150, for a total charge of $300.
       <br></br>
       <br></br>
-      A fee of $275 is charged for missed appointments unless they’re canceled or rescheduled at least 24 hours prior. Fees are subject to a 5% increase every January.
+      Completion of forms: $75
+      <br></br>
+      <br></br>
+      You may contact your insurance company with the <b>procedure codes</b> listed above to estimate your out-of-pocket costs.
+      <br></br>
+      <br></br>
+      A fee of $300 is charged for missed appointments unless they’re canceled or rescheduled at least 24 hours prior. Fees are subject to a 8% increase every January.
       </div>
 
       <div id="confidentiality">
