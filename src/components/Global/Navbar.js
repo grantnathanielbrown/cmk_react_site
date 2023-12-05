@@ -9,7 +9,6 @@ export default class Navbar extends Component {
 
   dropdownSlide(e) {
     e.preventDefault()
-    console.log('hi');
     var x = document.getElementsByClassName(".dropdown-toggle");
   }
   render() {

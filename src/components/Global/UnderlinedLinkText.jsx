@@ -2,9 +2,7 @@ import React, { Component } from 'react'
 
 export default class UnderlinedLinkText extends Component {
     createLine(e) {
-        console.log("line created");
         let targetedNav = e.target;
-        console.log(targetedNav.innerHTML.length);
         if (targetedNav.innerHTML.length > 0 ) {
           let underline = document.createElement("hr");
           underline.classList.add("slide-in");
@@ -16,9 +14,7 @@ export default class UnderlinedLinkText extends Component {
       }
     removeLine(e) {
         let targetedNav = e.target;
-        let p = targetedNav.childNodes[0];    
-        console.log(p);
-    
+        let p = targetedNav.childNodes[0];     
         targetedNav.removeChild(targetedNav.childNodes[1]);
       }
     render() {

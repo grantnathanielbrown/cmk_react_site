@@ -2,7 +2,7 @@
 
 ## FOR OLD MAN GRANT
 
-just run NPM run deploy, then stage files and commit.
+just run NPM run deploy (it also runs predeploy, so build directory gets updated), then stage files and commit 
 
 # TO DO
 

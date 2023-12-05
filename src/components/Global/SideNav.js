@@ -14,14 +14,9 @@ export default class SideNav extends Component {
 
   fadeOut(e) {
     e.preventDefault();
-    console.log(this.props.SectionContainer);
     let disappearingContent = document.getElementsByClassName(`section-container fade-in ${this.props.SectionContainer}`);
     
     let x = e.target.getAttribute("href");
-    // disappearingContent.className = "fade-out";
-    console.log(disappearingContent[0].className);
-    console.log(this.state.dynamicClass);
-    // disappearingContent[0].className += this.state.fadeClass;
     this.setState({
       dynamicClass: `section-container fade-in ${this.props.SectionContainer} fade-out`,
     })

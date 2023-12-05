@@ -137,17 +137,14 @@ font-size: 1.5em ;
 
 }
 
-.navbar-brand {
-  margin-left: 1em;
-}
-
 .dropdown:hover>.dropdown-menu {
   display: block;
 }
 
-.nav-item {
+.nav-item:not(:first-child) {
   margin: 0 1em;
 }
+
 .nav-item a:hover {
   background-color: #9DCAE5;
 }
@@ -510,5 +507,13 @@ font-size: 1.5em ;
   /* CONTACT */
   .m-container {
     min-height: initial;
+  }
+}
+
+/* LAPTOP */
+
+@media (max-width: 1441px) {
+  .navbar {
+    font-size: .8em;
   }
 }
