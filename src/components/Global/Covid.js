@@ -94,7 +94,7 @@ export default class Covid extends Component {
                         <br/><br/>
                         Diagnostic evaluation: $600
                         <br/><br/>
-                        45 minute follow-up visit: $300
+                        45 minute follow-up visit: $320
                         <br/><br/>
                         Completion of forms: $75
                         <br/><br/>
