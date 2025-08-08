@@ -1,89 +1,140 @@
-import React, { Component } from 'react';
-import {Helmet} from "react-helmet";
+import React, { Component } from "react";
+import { Helmet } from "react-helmet";
 
 export default class Policies extends Component {
   render() {
     return (
-
       <div className="policies-container">
-      <Helmet>
-      <meta charSet="utf-8" />
+        <Helmet>
+          <meta charSet="utf-8" />
 
-      <title>Christen's Policies</title>
-      <meta name="description" content="This page describes Christen's treatments, fees, and cancellation policies." />
-      <link rel="canonical" href="http://christenkerrmd.com/#/policies" />
-      </Helmet>
-      <h1 className="policy-header">Policies</h1>
+          <title>Christen's Policies</title>
+          <meta
+            name="description"
+            content="This page describes Christen's treatments, fees, and cancellation policies."
+          />
+          <link rel="canonical" href="http://christenkerrmd.com/#/policies" />
+        </Helmet>
+        <h1 className="policy-header">Policies</h1>
+        <div id="treatment">
+          <h1>Treatment</h1>I believe treatment proceeds best during regularly
+          scheduled appointments in the consistent and private setting of my
+          office, or via video conference. I provide individual therapy and
+          medication management. Because of my extensive psychotherapy training,
+          I do not provide medication management for patients in therapy with
+          other providers. Please let me know how you would like to be addressed
+          and what pronouns you would prefer.
+          <br />
+          <br />
+          All work is done on an outpatient basis. If inpatient treatment is
+          needed, I am available to facilitate a transfer to another provider in
+          a hospital setting.
+          <br />I do participate in the VA Prescription Monitoring program."
+        </div>
 
-      
-      <div id="treatment">
-      <h1>Treatment</h1>
-      I believe treatment proceeds best during regularly scheduled appointments in the consistent 
-      and private setting of my office, or via video conference. I provide individual therapy and medication management. 
-      Because of my extensive psychotherapy training, I do not provide medication management for 
-      patients in therapy with other providers. Please let me know how you would like to be addressed and what pronouns you would prefer. 
-      <br>
-      </br>
-      <br>
-      </br>
-      All work is done on an outpatient basis. 
-      If inpatient treatment is needed, I am available to facilitate a transfer to another provider 
-      in a hospital setting. 
-      
-      
-      <br>
-      </br>
-      
-      I do participate in the VA Prescription Monitoring program."
+        <div id="video">
+          <h1>Video</h1>
+          If you would prefer to do your appointment via videoconferencing,
+          notify me in advance, then go to{" "}
+          <a href="https://doxy.me/DrKerr">doxy.me/DrKerr</a>. The Doxy.me site
+          requires no account, is free of charge and is available on Desktop,
+          Laptop, Tablet and Smartphone. Please test your microphone, camera and
+          internet connection prior to your appointment and be in the virtual
+          waiting room 5 minutes prior to your appointment time. If you have any
+          problems with setup, please let me know so we do not spend your
+          appointment time troubleshooting technical issues.
+          <br />
+          <br />
+          Before you initiate a video conference appointment, please review my
+          informed consent statement.
+          <br />
+          <br />
+          <p>
+            <button
+              id="about-button"
+              className="btn btn-primary button-triad"
+              type="button"
+              data-toggle="collapse"
+              data-target="#consent"
+              aria-expanded="false"
+              aria-controls="consent"
+            >
+              Informed Consent For Videoconferencing
+            </button>
+          </p>
+          <div className="collapse" id="consent">
+            <div className="consent-text card card-body">
+              <h1>Informed consent for appointments via video conference</h1>
+              <br />
+              <br />
+              At the start of your appointment, please let me know your
+              location.
+              <br />
+              <br />
+              Prescriptions will be filled electronically. Please provide the
+              name, address, and phone number of the pharmacy.
+              <br />
+              <br />
+              To schedule appointments or to contact me with routine questions
+              between appointments, please call my office at 703-734-7961.
+              <br />
+              <br />
+              Refer to the "Resources" link on this website for forms and
+              questionnaires.
+              <br />
+              <br />I use a secure encrypted platform for videoconferencing but
+              all technologies involve some risk to your privacy.
+            </div>
+          </div>
+        </div>
+
+        <div id="termination">
+          <h1>Termination</h1>
+          Ending therapy is an integral part of treatment. It should be
+          considered carefully and discussed as one’s goals are achieved, in
+          order to obtain maximum benefit from the termination process.
+        </div>
+        <div id="fees">
+          <h1>Fees</h1>I do not participate with any insurance companies. I have
+          opted out of Medicare. Any insurance reimbursement would be paid
+          directly to you and subtracted from your total cost. Payment should be
+          made directly to me at time of service by check or credit card. There
+          is a 5% surcharge for credit card payments. The statement will be
+          provided to you by mail. You may present that to your insurance
+          company for reimbursement. Your good faith estimate can be calculated
+          by adding your initial consultation fee of $600 with weekly or
+          bi-weekly followup visits X the fee of $340. The following fees are
+          provided for you as a good faith estimate for the cost of your
+          treatment:
+          <br />
+          <br />
+          Diagnostic evaluation (1 and a half hours): $600
+          <br />
+          <br />
+          45 minute follow-up visit: $340
+          <br />
+          <br />
+          Completion of forms: $75
+          <br />
+          <br />A fee of $340 is charged for missed appointments unless they’re
+          canceled or rescheduled at least 24 hours prior. Fees are subject to a
+          5% increase every January.
+          <br />
+          <br />
+        </div>
+        <div id="confidentiality">
+          <h1>Confidentiality</h1>I am a covered entity under HIPAA. I use AI
+          for medical notes. Your appointments will be recorded and processed by
+          AI. As per our zero retention agreement with OpenAI, they do not store
+          recordings of your visits. Your medical records remain secure in my
+          office. I take care to not release protected health information
+          without your written consent, except in situations where the patient
+          or others are at risk of injury or under certain court orders.
+          <br />
+          My office is in my home. Please do not bring any weapons to your
+          appointments.
+        </div>
       </div>
-
-      <div id="termination">
-      <h1>Termination</h1>      
-      Ending therapy is an integral part of treatment. It should be considered carefully and discussed as one’s goals are achieved, in order to obtain maximum benefit from the termination process.
-      </div>
-
-      <div id="fees">
-      <h1>Fees</h1>
-      I do not participate with any insurance companies, and I have opted out of Medicare. Payment should be made directly to me at the time of service. I accept credit cards with an additional 5% surcharge. A statement will be provided for your convenience, which you may present to your insurance company for reimbursement. 
-      
-      {/* A good faith estimate of the cost of your treatment is as follows:
-       <br></br>
-      <br></br>
-      Diagnostic evaluation <b>90872</b>: $600
-      <br></br>
-      <br></br>
-      45 minute follow-up visits are billed as follows:
-      <br></br>
-      <br></br>
-      Individual Therapy <b>90834</b>: $300
-      <br></br>
-      Medication Evaluation and Management <b>99213</b>: $150 and Individual Psychotherapy with Medication Management <b>90836</b>: $150, for a total charge of $300.
-      <br></br>
-      <br></br>
-      Completion of forms: $75
-      <br></br>
-      <br></br>
-      You may contact your insurance company with the <b>procedure codes</b> listed above to estimate your out-of-pocket costs.
-      <br></br>
-      <br></br>
-      A fee of $300 is charged for missed appointments unless they’re canceled or rescheduled at least 24 hours prior. Fees are subject to a 8% increase every January. */}
-      </div>
-
-      <div id="confidentiality">
-      <h1>Confidentiality</h1>
-      I am not a covered entity under HIPPA. I do not use electronic transfer of protected medical 
-      information. Your medical records remain secure in my office. I take care to not release 
-      protected health information without your written consent, except in situations where the 
-      patient or others are at risk of injury or under certain court orders.
-      <br>
-      </br>
-
-      My office is in a shared space. I am a solo practitioner and not part of a group.
-      </div>
-
-
-      
-      </div>
-    )
+    );
   }
 }
