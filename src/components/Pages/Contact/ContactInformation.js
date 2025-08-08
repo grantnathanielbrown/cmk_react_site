@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import MapContainer from "../../Global/MapContainer";
 import { Helmet } from "react-helmet";
 
 export default class ContactInformation extends Component {
