@@ -19,3 +19,4 @@ just run NPM run deploy (it also runs predeploy, so build directory gets updated
 - add helmet on new pages
 - styling on resources, links
 
+test
