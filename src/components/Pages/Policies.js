@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Helmet } from "react-helmet";
+import Videoconferencing from "../Global/Videoconferencing";
 
 export default class Policies extends Component {
   render() {
@@ -34,58 +35,7 @@ export default class Policies extends Component {
 
         <div id="video">
           <h1>Video</h1>
-          If you would prefer to do your appointment via videoconferencing,
-          notify me in advance, then go to{" "}
-          <a href="https://doxy.me/DrKerr">doxy.me/DrKerr</a>. The Doxy.me site
-          requires no account, is free of charge and is available on Desktop,
-          Laptop, Tablet and Smartphone. Please test your microphone, camera and
-          internet connection prior to your appointment and be in the virtual
-          waiting room 5 minutes prior to your appointment time. If you have any
-          problems with setup, please let me know so we do not spend your
-          appointment time troubleshooting technical issues.
-          <br />
-          <br />
-          Before you initiate a video conference appointment, please review my
-          informed consent statement.
-          <br />
-          <br />
-          <p>
-            <button
-              id="about-button"
-              className="btn btn-primary button-triad"
-              type="button"
-              data-toggle="collapse"
-              data-target="#consent"
-              aria-expanded="false"
-              aria-controls="consent"
-            >
-              Informed Consent For Videoconferencing
-            </button>
-          </p>
-          <div className="collapse" id="consent">
-            <div className="consent-text card card-body">
-              <h1>Informed consent for appointments via video conference</h1>
-              <br />
-              <br />
-              At the start of your appointment, please let me know your
-              location.
-              <br />
-              <br />
-              Prescriptions will be filled electronically. Please provide the
-              name, address, and phone number of the pharmacy.
-              <br />
-              <br />
-              To schedule appointments or to contact me with routine questions
-              between appointments, please call my office at 703-734-7961.
-              <br />
-              <br />
-              Refer to the "Resources" link on this website for forms and
-              questionnaires.
-              <br />
-              <br />I use a secure encrypted platform for videoconferencing but
-              all technologies involve some risk to your privacy.
-            </div>
-          </div>
+          <Videoconferencing />
         </div>
 
         <div id="termination">

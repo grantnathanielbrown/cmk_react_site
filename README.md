@@ -2,7 +2,16 @@
 
 ## FOR OLD MAN GRANT
 
-just run NPM run deploy (it also runs predeploy, so build directory gets updated), then stage files and commit 
+changes to covid19update must also be made in policies page until you MAKE it 1 COMPONENT!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+just run NPM run deploy (it also runs predeploy, so build directory gets updated), 
+github repo => settings => custom domain => christenkerrmd.com
+then stage files and commit if you please
 
 # TO DO
 
