@@ -18,6 +18,7 @@ export default class ContactInformation extends Component {
             href="http://christenkerrmd.com/#/Contact-information"
           />
         </Helmet>
+        <h1>Contact</h1>
         <h2>
           Christen's office is located in McLean. The address will be provided
           when you schedule your appointment.

@@ -21,7 +21,7 @@ export default class PTSD extends Component {
       misfortune. A specific form of CBT called cognitive reprogramming 
       is very helpful for PTSD. Together we work through the trauma and detoxify it
       very slowly. I offer several different medications to assist
-      the working through and make it comfortable, if needed"
+      the working through, if needed"
       ></Section>
     )
   }

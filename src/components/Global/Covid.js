@@ -4,7 +4,7 @@ export default class Covid extends Component {
   render() {
     return (
       <div className="covid-container">
-        <p className="covid-content">
+        <div className="covid-content">
           <h1>Covid-19 Update</h1>
           Your health and safety are my first concern. In-person appointments
           are available to fully vaccinated patients and provide the highest
@@ -69,19 +69,8 @@ export default class Covid extends Component {
             </div>
           </div>
           <br />
-          If you are not fully vaccinated, or would prefer to do your
-          appointment via videoconferencing, notify me in advance, then go to{" "}
-          <a href="https://doxy.me/DrKerr">doxy.me/DrKerr</a>. The Doxy.me site
-          requires no account, is free of charge and is available on Desktop,
-          Laptop, Tablet and Smartphone. Please test your microphone, camera and
-          internet connection prior to your appointment and be in the virtual
-          waiting room 5 minutes prior to your appointment time. If you have any
-          problems with setup, please let me know so we do not spend your
-          appointment time troubleshooting technical issues.
-          <br />
-          <br />
-          Before you initiate a video conference appointment, please review my
-          informed consent statement.
+          Certain circumstances, such as inclement weather or high levels of Covid in the community, may require conversion to virtual appointments. I will also offer virtual treatment when I am away for 2 weeks in the summer.
+          To do your appointment via videoconference, review the instructions contained in the informed consent below.
           <br />
           <br />
           <p>
@@ -100,6 +89,17 @@ export default class Covid extends Component {
           <div className="collapse" id="consent">
             <div className="consent-text card card-body">
               <h1>Informed consent for appointments via video conference</h1>
+              <br />
+              For virtual appointments, please notify me in advance, and then log on to
+<a href="https://doxy.me/DrKerr">doxy.me/DrKerr</a>
+<br />
+ The Doxy.me site
+          requires no account, is free of charge and is available on Desktop,
+          Laptop, Tablet and Smartphone. Please test your microphone, camera and
+          internet connection prior to your appointment and be in the virtual
+          waiting room 5 minutes prior to your appointment time. If you have any
+          problems with setup, please let me know so we do not spend your
+          appointment time troubleshooting technical issues.
               <br />
               <br />
               At the start of your appointment, please let me know your
@@ -148,7 +148,7 @@ export default class Covid extends Component {
               opted out of Medicare. Any insurance reimbursement would be paid
               directly to you and subtracted from your total cost. Payment
               should be made directly to me at time of service by check or
-              credit card. There is a 5% surcharge for credit card payments. The
+              credit card. There is a 3% surcharge for credit card payments. The
               statement will be provided to you by mail. You may present that to
               your insurance company for reimbursement. Your good faith estimate
               can be calculated by adding your initial consultation fee of $600
@@ -167,7 +167,7 @@ export default class Covid extends Component {
               <br />
               <br />A fee of $340 is charged for missed appointments unless
               they’re canceled or rescheduled at least 24 hours prior. Fees are
-              subject to a 5% increase every January.
+              subject to a 4% increase every January.
               <br />
               <br />
               If you feel that treatment outside the office is not meeting your
@@ -181,7 +181,7 @@ export default class Covid extends Component {
           to my attention. I look forward to taking this journey together.
           <br />
           <br />~ Christen M. Kerr, M.D. P.C.
-        </p>
+        </div>
       </div>
     );
   }

@@ -21,6 +21,7 @@ import ContactInformation from '../Pages/Contact/ContactInformation';
 import Resources from '../Pages/Resources';
 
 import Covid from './Covid';
+import ScrollToTop from './ScrollToTop';
 
 
 const Main = () => (
@@ -28,6 +29,8 @@ const Main = () => (
 
     <main>
       <HashRouter>
+        <>
+      <ScrollToTop />
         <Switch>
           <Route exact path="/" component={Home}/>
           <Route exact path="/About" component={About}/>          
@@ -52,10 +55,10 @@ const Main = () => (
 
 
         </Switch>
+        </>
       </HashRouter>
     </main>
       <Footer></Footer>
-        {/* <GoogleApiWrapper></GoogleApiWrapper> */}
     </div>
   )
 

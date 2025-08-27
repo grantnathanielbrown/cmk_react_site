@@ -5,9 +5,11 @@ export default class Resources extends Component {
     let documentTitles = [
       "Adult ADHD",
       "AUDIT",
-      "Authorization",
+      "Authorization for AI Medical Notes",
+      "Authorization for Release of Information",
       "Beck Anxiety Inventory",
       "Beck Depression Inventory",
+      "Christen Kerr HIPPA",
       "Epworth Sleepiness Scale",
       "Geriatric Depression Scale",
       "MOCA",

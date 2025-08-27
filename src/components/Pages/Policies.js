@@ -99,7 +99,7 @@ export default class Policies extends Component {
           opted out of Medicare. Any insurance reimbursement would be paid
           directly to you and subtracted from your total cost. Payment should be
           made directly to me at time of service by check or credit card. There
-          is a 5% surcharge for credit card payments. The statement will be
+          is a 3% surcharge for credit card payments. The statement will be
           provided to you by mail. You may present that to your insurance
           company for reimbursement. Your good faith estimate can be calculated
           by adding your initial consultation fee of $600 with weekly or
@@ -118,7 +118,7 @@ export default class Policies extends Component {
           <br />
           <br />A fee of $340 is charged for missed appointments unless they’re
           canceled or rescheduled at least 24 hours prior. Fees are subject to a
-          5% increase every January.
+          4% increase every January.
           <br />
           <br />
         </div>

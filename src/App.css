@@ -372,6 +372,10 @@ font-size: 1.5em ;
   padding: 2em;
 }
 
+.idkmargin {
+  margin: 2em 0;
+}
+
 /* RESOURCES */
 .document-grid {
   display: flex;
